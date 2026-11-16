@@ -1,0 +1,899 @@
+{
+  "schema_version": 1,
+  "frame": "male_average_npc",
+  "donor": "quests/templates/characters/components/donors/npc-male_average_npc.app.json",
+  "prototypes": [
+    {
+      "id": "head_h0_001_ma_c__silverhand",
+      "appearance": "q108_johnny"
+    },
+    {
+      "id": "head_h0_003_ma_a__young",
+      "appearance": "q108_kerry"
+    },
+    {
+      "id": "head_h0_072_ma_b__older",
+      "appearance": "q108_ripper"
+    },
+    {
+      "id": "head_h0_030_ma_c__boxer",
+      "appearance": "q108_thompson"
+    },
+    {
+      "id": "head_h0_002_ma_b__young_assasin",
+      "appearance": "q108_voodoo_boy"
+    },
+    {
+      "id": "head_h0_026_ma_c__middle",
+      "appearance": "q115_blackhand"
+    },
+    {
+      "id": "head_h0_012_ma_a__young",
+      "appearance": "q204_steve_temp"
+    },
+    {
+      "id": "head_h0_016_ma_a__older",
+      "appearance": "q204_steves_dad_temp"
+    },
+    {
+      "id": "head_h0_002_ma_b__young",
+      "appearance": "sq002_male_nurse_01"
+    },
+    {
+      "id": "head_h0_006_ma_c__middle",
+      "appearance": "sq002_male_nurse_02"
+    },
+    {
+      "id": "head_h0_017_ma_b__middle",
+      "appearance": "sq002_male_nurse_03"
+    },
+    {
+      "id": "head_h0_034_ma_a__sikh",
+      "appearance": "sq002_male_nurse_04"
+    },
+    {
+      "id": "head_h0_022_ma_c__older",
+      "appearance": "sq003_father"
+    },
+    {
+      "id": "head_h0_001_ma_c__basehead",
+      "appearance": "sq009_cia_agent_01"
+    },
+    {
+      "id": "head_h0_005_ma_c__middle",
+      "appearance": "sq009_cia_agent_03"
+    },
+    {
+      "id": "head_h0_000_ma_c__basehead",
+      "appearance": "sq012_ted"
+    },
+    {
+      "id": "head_h0_008_ma_c__older",
+      "appearance": "q000_nomad_01"
+    },
+    {
+      "id": "head_h0_013_ma_c__older",
+      "appearance": "q000_nomad_02"
+    },
+    {
+      "id": "head_h0_039_ma_a__young",
+      "appearance": "sq026_salazar_bodyguard_02"
+    },
+    {
+      "id": "head_h0_001_ma_c__kerry_eurodyne_old",
+      "appearance": "q108_kerry_old_bathrobe"
+    },
+    {
+      "id": "head_h0_035_ma_a__middle",
+      "appearance": "q201_arasaka_doctor_scientist"
+    },
+    {
+      "id": "head_h0_031_ma_c__middle",
+      "appearance": "lizzies_barman_mateo_thiago"
+    },
+    {
+      "id": "head_h0_010_ma_c__middle",
+      "appearance": "josh_kavorkin"
+    },
+    {
+      "id": "head_h0_146_ma_a__middle",
+      "appearance": "q000_arasaka_security_03"
+    },
+    {
+      "id": "head_h0_000_pma_c__basehead",
+      "appearance": "q103_raffen_nash"
+    },
+    {
+      "id": "head_h0_002_ma_c__psycho",
+      "appearance": "some_dude"
+    },
+    {
+      "id": "head_h0_062_ma_b__young",
+      "appearance": "mq027_driver"
+    },
+    {
+      "id": "head_h0_727_ma_c__young",
+      "appearance": "mq027_recorder"
+    },
+    {
+      "id": "head_h0_763_ma_c__middle",
+      "appearance": "mq013_punk_2"
+    },
+    {
+      "id": "head_h0_045_ma_b__middle",
+      "appearance": "zane_jagger"
+    },
+    {
+      "id": "head_h0_049_ma_b__middle",
+      "appearance": "mq009_homeless_1"
+    },
+    {
+      "id": "head_h0_773_ma_c__middle",
+      "appearance": "q000_corpo_friend_02_hooded"
+    }
+  ],
+  "modules": {
+    "version": 1,
+    "heads": {
+      "head_h0_001_ma_c__silverhand": {
+        "head": [
+          "LightBlocking3231",
+          "face_rig",
+          "h0_000_ma_c__basehead",
+          "he_000_ma_c__basehead",
+          "heb_001_ma_c__silverhand",
+          "ht_000_ma_c__basehead",
+          "hx_001_ma_c__silverhand_makeup_lips_01",
+          "jaw",
+          "man_face_base_animations"
+        ],
+        "hair": [
+          "hair_rig",
+          "hb_001_ma_c__silverhand",
+          "hh_050_ma__johnny_silverhand",
+          "hh_050_ma__johnny_silverhand_npc7752"
+        ],
+        "outfit": [
+          "a0_000_ma_base__nails_r",
+          "a0_001_ma_arms__silverhand0348",
+          "head8268",
+          "i1_001_ma_neck__silverhand_dogtags3064",
+          "i1_001_ma_neck__silverhand_dogtags_dangles",
+          "l1_001_ma_pants__silverhand5586",
+          "s1_001_ma_shoe__silverhand6571",
+          "stencil_mesh",
+          "t0_001_ma_body__silverhand3462",
+          "t0_001_ma_body__silverhand_armpit_hair",
+          "t1_002_ma_tank__silverhand0834"
+        ],
+        "body_family": "ma"
+      },
+      "head_h0_003_ma_a__young": {
+        "head": [
+          "LightBlocking3231",
+          "face_rig",
+          "h0_003_ma_a__young",
+          "he_003_ma_a__young",
+          "heb_003_ma_a__young",
+          "ht_003_ma_a__young",
+          "jaw",
+          "man_face_base_animations"
+        ],
+        "hair": [
+          "hair_dangle",
+          "hh_008_ma__demo0028",
+          "hh_008_wa__demo_shadow_npc"
+        ],
+        "outfit": [
+          "i1_033_ma_neck__necklace9559",
+          "l1_012_ma_pants__jeans_tight6825",
+          "s1_002_ma_shoe__converse_high1311",
+          "t0_004_ma__c_base_h1522",
+          "t0_004_ma__c_base_t0751",
+          "t2_059_ma_jacket__suit_wide"
+        ],
+        "body_family": "ma"
+      },
+      "head_h0_072_ma_b__older": {
+        "head": [
+          "LightBlocking3231",
+          "face_rig",
+          "h0_000_ma_c__basehead",
+          "he_000_ma_c__basehead",
+          "heb_072_ma_b__older",
+          "ht_000_ma_c__basehead",
+          "jaw",
+          "man_face_base_animations"
+        ],
+        "hair": [],
+        "outfit": [
+          "g1_015_ma_gloves__ripper_doc4487",
+          "l1_079_ma_pants__jeans_ripperdoc5705",
+          "s1_053_ma_boot__military",
+          "t0_000_ma__c_base_full9394",
+          "t0_001_ma__full__joshua_stephenson_dec_tattoo0766",
+          "t1_071_pma_tank__basic4518"
+        ],
+        "body_family": "ma"
+      },
+      "head_h0_030_ma_c__boxer": {
+        "head": [
+          "LightBlocking3231",
+          "cyberware",
+          "eyes",
+          "face_rig",
+          "h0_030_ma_c__boxer6492",
+          "heb_030_ma_c__boxer",
+          "jaw",
+          "man_face_base_animations",
+          "teeths"
+        ],
+        "hair": [],
+        "outfit": [
+          "collar",
+          "t0_001_ma__c_base_twah6806",
+          "t2_101_ma_jacket__long_coat8223"
+        ],
+        "body_family": "ma"
+      },
+      "head_h0_002_ma_b__young_assasin": {
+        "head": [
+          "LightBlocking3231",
+          "face_rig",
+          "h0_002_ma_b__young_assasin5521",
+          "h0_002_ma_b__young_assasin_decal",
+          "h0_002_ma_b__young_cyberware",
+          "ht_002_ma_b__young_assasin",
+          "jaw",
+          "man_face_base_animations"
+        ],
+        "hair": [],
+        "outfit": [
+          "collar",
+          "l1_006_ma_pants__stoop_king5270",
+          "maelstrom_head_FX",
+          "s1_003_ma_shoe__sneakers_spiked1048",
+          "t0_002_ma__c_base_tah3540",
+          "t2_021_ma_vest__denim2816"
+        ],
+        "body_family": "ma"
+      },
+      "head_h0_026_ma_c__middle": {
+        "head": [
+          "LightBlocking3231",
+          "face_rig",
+          "h0_005_ma_c__head",
+          "he_026_ma_c__middle",
+          "heb_026_ma_c__middle",
+          "ht_026_ma_c__middle",
+          "hx_026_ma_c__middle_pimples_01",
+          "jaw",
+          "man_face_base_animations"
+        ],
+        "hair": [
+          "hh_031_ma__morgan_blackhand",
+          "hh_062_ma__slick_back_shadow_npc"
+        ],
+        "outfit": [
+          "l1_001_ma_pants__maelstrom_sergeant7548",
+          "t0_002_ma__c_base_tah3540",
+          "t1_056_ma_shirt__no_collar",
+          "t2_045_ma_jacket__leather0265"
+        ],
+        "body_family": "ma"
+      },
+      "head_h0_012_ma_a__young": {
+        "head": [
+          "LightBlocking3231",
+          "face_rig",
+          "h0_012_ma_a__young0664",
+          "he_012_ma_a__young",
+          "heb_012_ma_a__young",
+          "ht_012_ma_a__young",
+          "jaw",
+          "man_face_base_animations"
+        ],
+        "hair": [],
+        "outfit": [
+          "SkinnedMesh8388",
+          "l1_004_ma_pants__sweatpants1880",
+          "s1_002_ma_shoe__converse_high1311",
+          "t0_001_ma__c_base_twah6806",
+          "t2_053_ma_jacket__kid4590"
+        ],
+        "body_family": "ma"
+      },
+      "head_h0_016_ma_a__older": {
+        "head": [
+          "LightBlocking3231",
+          "face_rig",
+          "h0_016_ma_a__older4261",
+          "he_016_ma_a__older",
+          "heb_006_ma_c__middle",
+          "ht_016_ma_a__older",
+          "jaw",
+          "man_face_base_animations"
+        ],
+        "hair": [],
+        "outfit": [
+          "GarmentSkinnedMesh1127",
+          "head8268",
+          "l1_030_ma_pants__worker",
+          "s1_044_ma_sandal__body",
+          "s1_044_ma_sandal__kid",
+          "t0_001_ma__c_base_twah6806",
+          "t1_007_ma_shirt__lumberjack3479"
+        ],
+        "body_family": "ma"
+      },
+      "head_h0_002_ma_b__young": {
+        "head": [
+          "LightBlocking3231",
+          "face_rig",
+          "h0_002_ma_b__young",
+          "he_002_ma_b__young",
+          "heb_002_ma_b__young",
+          "ht_002_ma_b__young",
+          "jaw",
+          "man_face_base_animations"
+        ],
+        "hair": [
+          "hh_006_ma__demo3633",
+          "hh_006_ma__demo_shadow_npc"
+        ],
+        "outfit": [
+          "i1_022_ma_neck__coroner_badge6142",
+          "l1_005_ma_pants__tracksuit9395",
+          "s1_004_ma_shoe__sneakers_high9193",
+          "t0_003_ma__c_base_ah8858",
+          "t1_006_ma_shirt__padded8020"
+        ],
+        "body_family": "ma"
+      },
+      "head_h0_006_ma_c__middle": {
+        "head": [
+          "LightBlocking3231",
+          "face_rig",
+          "h0_006_ma_c__middle",
+          "he_006_ma_c__middle",
+          "heb_006_ma_c__middle",
+          "ht_006_ma_c__middle",
+          "jaw",
+          "man_face_base_animations"
+        ],
+        "hair": [
+          "hh_000_ma__prototype3047",
+          "hh_021_ma__player_shadow_npc"
+        ],
+        "outfit": [
+          "i1_022_ma_neck__coroner_badge6142",
+          "l1_003_ma_pants__jeans2347",
+          "s1_004_ma_shoe__sneakers_high9193",
+          "t0_003_ma__c_base_ah8858",
+          "t1_006_ma_shirt__padded8020"
+        ],
+        "body_family": "ma"
+      },
+      "head_h0_017_ma_b__middle": {
+        "head": [
+          "LightBlocking3231",
+          "SkinnedMesh3080",
+          "SkinnedMesh5981",
+          "face_rig",
+          "h0_017_ma_c__middle9055",
+          "heb_017_ma_b__middle",
+          "hx_017_ma_b__middle_pimples_01",
+          "jaw",
+          "man_face_base_animations"
+        ],
+        "hair": [],
+        "outfit": [
+          "i1_022_ma_neck__coroner_badge6142",
+          "l1_003_ma_pants__jeans2347",
+          "t0_003_ma__c_base_ah8858",
+          "t1_006_ma_shirt__padded8020"
+        ],
+        "body_family": "ma"
+      },
+      "head_h0_034_ma_a__sikh": {
+        "head": [
+          "LightBlocking3231",
+          "face_rig",
+          "h0_032_ma_c__young4166",
+          "h0_032_ma_c__young528",
+          "h0_032_ma_c__young8366",
+          "heb_034_ma_a__sikh8172",
+          "jaw",
+          "man_face_base_animations"
+        ],
+        "hair": [
+          "h0_032_ma_c__young8720"
+        ],
+        "outfit": [
+          "a0_001_ma_arms__psycho0764",
+          "i1_022_ma_neck__coroner_badge6142",
+          "l1_028_ma_pants__tight6160",
+          "s1_009_ma_shoe__flip_flop_socks0133",
+          "t1_006_ma_shirt__padded8020"
+        ],
+        "body_family": "ma"
+      },
+      "head_h0_022_ma_c__older": {
+        "head": [
+          "LightBlocking3231",
+          "face_rig",
+          "h0_022_mo_c__older",
+          "he_022_mo_c__older",
+          "heb_006_ma_c__middle",
+          "ht_022_mo_c__older",
+          "jaw",
+          "man_face_base_animations"
+        ],
+        "hair": [],
+        "outfit": [
+          "collar",
+          "l1_045_ma_pants__suit",
+          "s1_035_ma_boot__motorcycle7830",
+          "t0_003_ma__c_base_ah8858",
+          "t1_005_ma_shirt__plain_vl2536"
+        ],
+        "body_family": "ma"
+      },
+      "head_h0_001_ma_c__basehead": {
+        "head": [
+          "LightBlocking3231",
+          "face_rig",
+          "h0_0001_ma_c__young789",
+          "he_0001_ma_c__young124",
+          "heb_001_ma_c__basehead",
+          "ht_001_ma_c__youngsf",
+          "jaw",
+          "man_face_base_animations"
+        ],
+        "hair": [],
+        "outfit": [
+          "l1_003_ma_pants__jeans2347",
+          "s1_008_ma_shoe__elegant6668",
+          "t0_003_ma__c_base_ah8858",
+          "t1_033_ma_shirt__inside1356",
+          "t2_037_ma_jacket__suit_closed9495"
+        ],
+        "body_family": "ma"
+      },
+      "head_h0_005_ma_c__middle": {
+        "head": [
+          "LightBlocking3231",
+          "face_rig",
+          "h0_005_ma_c__middle3802",
+          "he_005_ma_c__middle",
+          "heb_005_ma_c__middle",
+          "ht_005_ma_c__middle",
+          "jaw",
+          "man_face_base_animations"
+        ],
+        "hair": [],
+        "outfit": [
+          "l1_003_ma_pants__jeans2347",
+          "s1_008_ma_shoe__elegant6668",
+          "t0_003_ma__c_base_ah8858",
+          "t1_033_ma_shirt__inside1356",
+          "t2_037_ma_jacket__suit_closed9495"
+        ],
+        "body_family": "ma"
+      },
+      "head_h0_000_ma_c__basehead": {
+        "head": [
+          "LightBlocking3231",
+          "face_rig",
+          "h0_000_ma_c__basehead",
+          "he_000_ma_c__basehead",
+          "heb_000_ma_c__basehead",
+          "ht_000_ma_c__basehead",
+          "hx_000_ma_c__basehead_pimples_01",
+          "jaw",
+          "man_face_base_animations"
+        ],
+        "hair": [
+          "hair",
+          "hh_035_ma__mohawk_tall",
+          "hh_035_ma__mohawk_tall_shadow_npc"
+        ],
+        "outfit": [
+          "collar",
+          "head8268",
+          "s1_008_ma_shoe__elegant6668",
+          "t0_002_ma__c_base_tah3540",
+          "t2_070_ma_jacket__suit_paulnight2183"
+        ],
+        "body_family": "ma"
+      },
+      "head_h0_008_ma_c__older": {
+        "head": [
+          "LightBlocking3231",
+          "face_rig",
+          "h0_008_ma_c__older",
+          "he_008_ma_c__older",
+          "heb_008_ma_c__older",
+          "ht_008_ma_c__older",
+          "jaw",
+          "man_face_base_animations"
+        ],
+        "hair": [],
+        "outfit": [
+          "head8268",
+          "l1_001_ma_pants__maelstrom_sergeant7548",
+          "t0_000_ma__c_base_full9394",
+          "t2_012_ma_jacket__spiked6145"
+        ],
+        "body_family": "ma"
+      },
+      "head_h0_013_ma_c__older": {
+        "head": [
+          "LightBlocking3231",
+          "face_rig",
+          "h0_013_ma_c__older2949",
+          "h0_013_ma_c__older_dec_tattoo",
+          "he_013_ma_c__older",
+          "heb_013_ma_c__older",
+          "ht_013_ma_c__older",
+          "jaw",
+          "man_face_base_animations"
+        ],
+        "hair": [
+          "hh_999_ma__buzz_cap"
+        ],
+        "outfit": [
+          "a0_004_ma_arms__body_mlstrm",
+          "a0_004_ma_arms__cyber_mlstrm8367",
+          "i1_020_ma_neck__goggles9877",
+          "l1_001_ma_pants__maelstrom_sergeant7548",
+          "t0_002_ma__c_base_tah_cyberhands8461",
+          "t1_034_ma_tank__bulletproof3949",
+          "t2_022_ma_jacket__straps3098"
+        ],
+        "body_family": "ma"
+      },
+      "head_h0_039_ma_a__young": {
+        "head": [
+          "LightBlocking3231",
+          "face_rig",
+          "h0_039_ma_a__young0436",
+          "h0_039_ma_a__young_loghts",
+          "he_003_ma_a__young",
+          "heb_039_ma_a__young",
+          "ht_003_ma_a__young",
+          "jaw",
+          "man_face_base_animations"
+        ],
+        "hair": [
+          "hh_007_ma__demo1210",
+          "hh_021_ma__player_shadow_npc"
+        ],
+        "outfit": [
+          "l1_012_ma_pants__jeans_tight6825",
+          "s1_022_ma_boot__tactical",
+          "t0_004_ma__c_base_h1522",
+          "t1_033_ma_shirt__tie7282",
+          "t2_059_ma_jacket__suit_wide"
+        ],
+        "body_family": "ma"
+      },
+      "head_h0_001_ma_c__kerry_eurodyne_old": {
+        "head": [
+          "LightBlocking3231",
+          "face_rig",
+          "h0_000_ma_c__basehead",
+          "he_000_ma_c__basehead",
+          "heb_001_ma_c__kerry_eurodyne_old",
+          "ht_000_ma_c__basehead",
+          "hx_001_ma_c__kerry_eurodyne_old_makeup_eyes_01",
+          "hx_001_ma_c__kerry_eurodyne_old_makeup_freckles_01",
+          "hx_001_ma_c__kerry_eurodyne_old_pimples_01",
+          "jaw",
+          "man_face_base_animations"
+        ],
+        "hair": [
+          "hb_001_ma_c__kerry_eurodyne_old",
+          "hb_001_ma_c__kerry_eurodyne_old_shadow",
+          "hh_045_ma__short_spiked_shadow_npc",
+          "hh_053_ma__kerry_eurodyne5786"
+        ],
+        "outfit": [
+          "GarmentSkinnedMesh7739",
+          "a0_000_ma_base__nails_l",
+          "a0_000_ma_base__nails_r",
+          "i1_001_ma_full__kerry_eurodyne6254",
+          "l0_000_ma_base__thigh1291",
+          "t0_001_ma_body__kerry_eurodyne8325",
+          "t2_016_ma_dress__bathrobe_closed4324"
+        ],
+        "body_family": "ma"
+      },
+      "head_h0_035_ma_a__middle": {
+        "head": [
+          "LightBlocking3231",
+          "face_rig",
+          "h0_035_ma_a__middle789",
+          "he_035_ma_a__middle124",
+          "heb_035_ma_a__middle",
+          "ht_035_ma_a__middle1234",
+          "jaw",
+          "man_face_base_animations"
+        ],
+        "hair": [
+          "hh_031_ma__morgan_blackhand",
+          "hh_062_ma__slick_back_shadow_npc"
+        ],
+        "outfit": [
+          "collar",
+          "dangle_setup",
+          "i1_003_ma_full__ripper_doc",
+          "l1_045_ma_pants__suit",
+          "s1_013_ma_boot__snow_shoes6094",
+          "t0_000_ma__c_base_full9394",
+          "t1_001_ma_full__ripper_doc1487"
+        ],
+        "body_family": "ma"
+      },
+      "head_h0_031_ma_c__middle": {
+        "head": [
+          "LightBlocking3231",
+          "face_rig",
+          "h0_023_wa_a__middle1180",
+          "h0_023_wa_a__middle2943",
+          "h0_023_wa_a__middle8291",
+          "heb_031_ma_c__middle",
+          "jaw",
+          "man_face_base_animations"
+        ],
+        "hair": [],
+        "outfit": [
+          "collar",
+          "i1_050_ma_neck__bolo_tie4577",
+          "l1_055_ma_pants__chaps4633",
+          "l1_055_ma_pants__chaps_decal",
+          "s1_008_ma_shoe__elegant6668",
+          "t0_002_ma__c_base_tah3540",
+          "t1_045_ma_shirt__cowboy8385"
+        ],
+        "body_family": "ma"
+      },
+      "head_h0_010_ma_c__middle": {
+        "head": [
+          "LightBlocking3231",
+          "SkinnedMesh5712",
+          "face_rig",
+          "h0_010_ma_c__middle2985",
+          "heb_010_ma_c__middle",
+          "ht_010_ma_c__middle",
+          "jaw",
+          "man_face_base_animations"
+        ],
+        "hair": [
+          "hh_031_ma__morgan_blackhand",
+          "hh_062_ma__slick_back_shadow_npc"
+        ],
+        "outfit": [
+          "l1_001_ma_pants__haru_kasai0623",
+          "s1_010_ma_shoe__elegant5827",
+          "s1_010_ma_shoe__elegant_socks",
+          "t0_003_ma__c_base_ah8858",
+          "t2_067_ma_jacket__formal_suit"
+        ],
+        "body_family": "ma"
+      },
+      "head_h0_146_ma_a__middle": {
+        "head": [
+          "LightBlocking3231",
+          "face_rig",
+          "h0_001_ma_a__haru_kasai",
+          "he_001_ma_a__haru_kasai",
+          "heb_146_ma_a__middle",
+          "ht_001_ma_a__haru_kasai",
+          "jaw",
+          "man_face_base_animations"
+        ],
+        "hair": [],
+        "outfit": [
+          "a0_004_ma_arms__body_mlstrm",
+          "a0_004_ma_arms__cyber_mlstrm8367",
+          "l1_003_ma_pants__jeans2347",
+          "s1_008_ma_shoe__elegant6668",
+          "t1_033_ma_shirt__inside1356",
+          "t2_037_ma_jacket__suit_closed9495"
+        ],
+        "body_family": "ma"
+      },
+      "head_h0_000_pma_c__basehead": {
+        "head": [
+          "LightBlocking3231",
+          "face_rig",
+          "h0_001_ma_c__player",
+          "he_001_ma_c__player",
+          "heb_000_pma_c__basehead",
+          "ht_001_ma_c__player",
+          "hx_000_pma_c__basehead_cyberware_01",
+          "jaw",
+          "man_face_base_animations"
+        ],
+        "hair": [
+          "hb_000_pma_c__basehead",
+          "hb_000_pma_c__basehead_shadowbase_01",
+          "hh_045_ma__short_spiked"
+        ],
+        "outfit": [
+          "i1_016_ma_belt__police_eq7544",
+          "s1_001_ma_shoe__ripper_doc1472",
+          "t0_003_ma__c_base_ah8858",
+          "t2_022_ma_jacket__straps3098"
+        ],
+        "body_family": "ma"
+      },
+      "head_h0_002_ma_c__psycho": {
+        "head": [
+          "LightBlocking3231",
+          "eyes",
+          "face_rig",
+          "head",
+          "heb_001_ma_c__psycho",
+          "jaw",
+          "man_face_base_animations",
+          "teeth"
+        ],
+        "hair": [
+          "hair"
+        ],
+        "outfit": [
+          "a0_000_ma_base__full_ag_hq1491",
+          "a0_001_ma_base_hq__r",
+          "an0_001_ma__left",
+          "an0_001_ma__right",
+          "collar",
+          "l1_001_ma_pants__maelstrom_sergeant7548",
+          "t1_062_ma_shirt__farmer"
+        ],
+        "body_family": "ma"
+      },
+      "head_h0_062_ma_b__young": {
+        "head": [
+          "LightBlocking3231",
+          "face_rig",
+          "h0_062_ma_b__young",
+          "he_062_ma_b__young",
+          "heb_006_ma_c__middle",
+          "ht_062_ma_b__young",
+          "jaw",
+          "man_face_base_animations"
+        ],
+        "hair": [],
+        "outfit": [
+          "GarmentSkinnedMesh0169",
+          "a0_000_ma_base__full_ag_hq1491",
+          "a0_001_ma_base_hq__r",
+          "an0_001_ma__left",
+          "an0_001_ma__right",
+          "l1_028_ma_pants__tight6160",
+          "s1_004_ma_shoe__sneakers_high9193",
+          "t0_001_ma__c_boxer__calf_f9808",
+          "t0_004_ma__c_base_t0751"
+        ],
+        "body_family": "ma"
+      },
+      "head_h0_727_ma_c__young": {
+        "head": [
+          "LightBlocking3231",
+          "face_rig",
+          "h0_027_ma_c__young",
+          "he_027_ma_c__young",
+          "heb_727_ma_c__young",
+          "ht_027_ma_c__young",
+          "hx_727_ma_c__young_pimples_01",
+          "jaw",
+          "man_face_base_animations"
+        ],
+        "hair": [],
+        "outfit": [
+          "l1_024_ma_pants__homeless8612",
+          "t0_000_ma__c_base_full_hq3885",
+          "t1_041_tshirt__sleeveless1038"
+        ],
+        "body_family": "ma"
+      },
+      "head_h0_763_ma_c__middle": {
+        "head": [
+          "LightBlocking3231",
+          "face_rig",
+          "h0_763_ma_c__middle",
+          "h0_763_ma_c__middle_decal_cyberware",
+          "he_763_ma_c__basehead",
+          "heb_763_ma_c__middle",
+          "ht_763_ma_c__basehead",
+          "jaw",
+          "man_face_base_animations"
+        ],
+        "hair": [
+          "hair_dangle",
+          "hh_008_ma__demo0028",
+          "hh_008_wa__demo_shadow_npc"
+        ],
+        "outfit": [
+          "l1_005_ma_pants__tracksuit9395",
+          "s1_002_ma_shoe__converse_high1311",
+          "t0_002_ma__c_base_tah3540",
+          "t1_007_ma_shirt__lumberjack3479"
+        ],
+        "body_family": "ma"
+      },
+      "head_h0_045_ma_b__middle": {
+        "head": [
+          "LightBlocking3231",
+          "face_rig",
+          "h0_000_ma_c__basehead",
+          "he_000_ma_c__basehead",
+          "heb_045_ma_b__middle",
+          "ht_000_ma_c__basehead",
+          "jaw",
+          "man_face_base_animations"
+        ],
+        "hair": [],
+        "outfit": [
+          "collar",
+          "l1_052_ma_pants__suit_paulnight4112",
+          "s1_049_ma_shoe__paulnight0030",
+          "t0_003_ma__c_base_ah8858",
+          "t2_070_ma_jacket__suit_paulnight2183"
+        ],
+        "body_family": "ma"
+      },
+      "head_h0_049_ma_b__middle": {
+        "head": [
+          "LightBlocking3231",
+          "face_rig",
+          "h0_000_ma_c__basehead",
+          "he_000_ma_c__basehead",
+          "heb_049_ma_b__middle",
+          "ht_000_ma_c__basehead",
+          "jaw",
+          "man_face_base_animations"
+        ],
+        "hair": [],
+        "outfit": [
+          "a0_000_ma_base__ag_half5030",
+          "collar",
+          "i1_023_ma_back__homeless_bag7048",
+          "s1_043_shoe__scavenger9071",
+          "t1_067_ma_tank__voodoo3665",
+          "t2_101_ma_jacket__long_coat8223"
+        ],
+        "body_family": "ma"
+      },
+      "head_h0_773_ma_c__middle": {
+        "head": [
+          "LightBlocking3231",
+          "face_rig",
+          "h0_773_ma_c__middle",
+          "he_773_ma_c__middle",
+          "heb_773_ma_c__middle",
+          "ht_773_ma_c__middle",
+          "hx_773_ma_c__middle_pimples_01",
+          "jaw",
+          "man_face_base_animations"
+        ],
+        "hair": [
+          "hb_773_ma_c__middle__e3_demo_reduced"
+        ],
+        "outfit": [
+          "l1_062_pma_pants__jeans6487",
+          "l1_pma_pants__basic_shadow",
+          "s1_001_ma_shoe__silverhand6571",
+          "t0_004_ma__c_base_h1522",
+          "t2_087_ma_jacket__river1680"
+        ],
+        "body_family": "ma"
+      }
+    },
+    "bodies": {
+      "ma": "quests/templates/characters/components/bodies/npc-ma.components.json"
+    }
+  }
+}

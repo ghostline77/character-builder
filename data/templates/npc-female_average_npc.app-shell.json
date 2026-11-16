@@ -1,0 +1,1422 @@
+{
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
+      "$type": "appearanceAppearanceResource",
+      "alternateAppearanceMapping": [],
+      "alternateAppearanceSettingName": {
+        "$type": "CName",
+        "$storage": "string",
+        "$value": "None"
+      },
+      "alternateAppearanceSuffixes": [],
+      "appearances": [],
+      "baseEntity": {
+        "DepotPath": {
+          "$type": "ResourcePath",
+          "$storage": "uint64",
+          "$value": "0"
+        },
+        "Flags": "Soft"
+      },
+      "baseEntityType": {
+        "$type": "CName",
+        "$storage": "string",
+        "$value": "WomanAverage"
+      },
+      "baseType": {
+        "$type": "CName",
+        "$storage": "string",
+        "$value": "None"
+      },
+      "censorshipMapping": [],
+      "commonCookData": {
+        "DepotPath": {
+          "$type": "ResourcePath",
+          "$storage": "uint64",
+          "$value": "0"
+        },
+        "Flags": "Soft"
+      },
+      "cookingPlatform": "PLATFORM_PC",
+      "DismEffects": [],
+      "DismWoundConfig": {
+        "$type": "entdismembermentWoundsConfigSet",
+        "Configs": [
+          {
+            "HandleId": "734",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "Hanako"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "735",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "judy"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "736",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "judy_casual"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "737",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "judy_combat"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "738",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "judy_dive"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "739",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "judy_dive_no_mask"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "740",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "judy_dive_no_top"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "741",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "judy_panties"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "742",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "lizzy_wizzy"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "743",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "lizzy_wizzy_incognito"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "744",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "maiko"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "745",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "mama_welles"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "746",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "mq019_riot_staff_club_closed"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "747",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "mq019_riot_staff_club_opened"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "748",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "mq019_zetatech_technician"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "749",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "mq020_natalie"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "750",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "mq020_natalie_wounded"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "751",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "mq023_performer"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "752",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "mq024_sandra"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "753",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "mq026_disciple"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "754",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "mq026_mib_boss"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "755",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "mq027_director"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "756",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "mq028_kid"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "757",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "mq039_veteran_netrunner"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "758",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "mq040_wife"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "759",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "mq042_natalie"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "760",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "panam"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "761",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "panam_gas_mask"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "762",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "q000_agent_abernathy"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "763",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "q000_ayumi_gozen"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "764",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "q000_house_staff_bartender"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "765",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "q000_house_staff_party_waitress"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "766",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "q000_house_staff_staff"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "767",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "q000_kid_emilia"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "768",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "q000_kid_jackies_companion_04"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "769",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "q000_kid_junkie"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "770",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "q000_kid_kira"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "771",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "q000_kid_lover_02"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "772",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "q000_netrunner"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "773",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "q003_stout_sex"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "774",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "q004_evelyn_braindance"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "775",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "q004_evelyn_client"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "776",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "q004_evelyn_club"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "777",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "q004_nightclub_dancer_01"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "778",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "q004_nightclub_dancer_02"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "779",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "q004_nightclub_dancer_03"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "780",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "q004_nightclub_dancer_04"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "781",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "q004_nightclub_dancer_05"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "782",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "q004_nightclub_dancer_06"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "783",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "q005_cleaning_lady_01"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "784",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "q005_cleaning_lady_02"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "785",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "q005_cleaning_lady_03"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "786",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "q005_hotel_escort_01"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "787",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "q005_hotel_escort_02"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "788",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "q101_rogue_combat"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "789",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "q101_soulkiller_tech"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "790",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "q101_spider_murphy"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "791",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "q105_evelyn"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "792",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "q108_alt"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "793",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "q108_alt_naked"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "794",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "q108_animals_01"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "795",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "q108_animals_02"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "796",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "q108_animals_03"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "797",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "q108_animals_04"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "798",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "q108_bodyguard_01"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "799",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "q108_rogue"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "800",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "q115_arasaka_guard_female_01"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "801",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "q115_arasaka_guard_female_02"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "802",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "q115_arasaka_guard_female_03"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "803",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "q115_arasaka_guard_female_04"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "804",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "q115_netrunner_suit"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "805",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "q115_restaurant_waitress"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "806",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "q116_v"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "807",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "q201_assistant"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "808",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "q201_scientist"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "809",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "roxanne"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "810",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "sq002_regina_reggie_jones"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "811",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "sq003_batya"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "812",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "sq003_gabriela"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "813",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "sq003_mother"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "814",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "sq011_patricia"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "815",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "sq012_braindance_hologram"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "816",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "sq012_haakensen_wife"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "817",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "sq012_ripperdoc"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "818",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "sq012_skyler"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "819",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "sq012_skyler_braindance"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "820",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "sq018_mom"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "821",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "sq019_cloakroom_attendant"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "822",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "sq019_euryale"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "823",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "sq019_hologram"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "824",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "sq019_medusa"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "825",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "sq021_joss"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "826",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "sq021_mitsuko"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "827",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "sq023_bd_director"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "828",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "sq024_marianne"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "829",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "sq025_netwatch_netrunner"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "830",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "sq026_evelyn_casual"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "831",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "sq026_evelyn_combat"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "832",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "sq026_evelyn_onsen"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "833",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "sq026_maiko_casual"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "834",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "sq026_roxanne_casual"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "835",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "sq026_roxanne_combat"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "836",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "sq026_roxanne_onsen"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "837",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "sq031_rogue_armor"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "838",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "sq031_rogue_date"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "839",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "sq031_rogue_lingerie"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "840",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "sq031_rogue_lingerie_bra"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "841",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "sq031_streapper"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "842",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "sq031_streapper_dress"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "843",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "sq031_v"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "844",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "totentanz_barman"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "845",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "v_street_kid_suit"
+              },
+              "Wounds": []
+            }
+          },
+          {
+            "HandleId": "846",
+            "Data": {
+              "$type": "entdismembermentWoundConfigContainer",
+              "AppearanceName": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "voodoo_queen"
+              },
+              "Wounds": []
+            }
+          }
+        ]
+      },
+      "forceCompileProxy": 0,
+      "generatePlayerBlockingCollisionForProxy": 0,
+      "partType": {
+        "$type": "CName",
+        "$storage": "string",
+        "$value": "None"
+      },
+      "preset": {
+        "$type": "CName",
+        "$storage": "string",
+        "$value": "None"
+      },
+      "proxyPolyCount": 1400,
+      "Wounds": []
+    },
+    "EmbeddedFiles": []
+  }
+}

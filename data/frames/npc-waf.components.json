@@ -1,0 +1,239 @@
+{
+  "normal": [
+    {
+      "$type": "entGarmentSkinnedMeshComponent",
+      "acceptDismemberment": 1,
+      "autoHideDistance": 0,
+      "castLocalShadows": "Always",
+      "castShadows": "Always",
+      "chunkMask": "9223372036854775807",
+      "forcedLodDistance": "Default",
+      "forceLODLevel": -1,
+      "id": "1705800756912873476",
+      "isEnabled": 1,
+      "isReplicable": 0,
+      "localTransform": {
+        "$type": "WorldTransform",
+        "Orientation": {
+          "$type": "Quaternion",
+          "i": 0,
+          "j": 0,
+          "k": 0,
+          "r": 1
+        },
+        "Position": {
+          "$type": "WorldPosition",
+          "x": {
+            "$type": "FixedPoint",
+            "Bits": 0
+          },
+          "y": {
+            "$type": "FixedPoint",
+            "Bits": 0
+          },
+          "z": {
+            "$type": "FixedPoint",
+            "Bits": 0
+          }
+        }
+      },
+      "LODMode": "AlwaysVisible",
+      "mesh": {
+        "DepotPath": {
+          "$type": "ResourcePath",
+          "$storage": "string",
+          "$value": "base\\characters\\common\\base_bodies\\woman_average\\_old_to_delete\\t0_000_waf_base__full.mesh"
+        },
+        "Flags": "Default"
+      },
+      "meshAppearance": {
+        "$type": "CName",
+        "$storage": "string",
+        "$value": "default"
+      },
+      "name": {
+        "$type": "CName",
+        "$storage": "string",
+        "$value": "t0_000_waf_base__full6143"
+      },
+      "navigationImpact": {
+        "$type": "NavGenNavigationSetting",
+        "navmeshImpact": "Ignored"
+      },
+      "order": 0,
+      "overrideMeshNavigationImpact": 1,
+      "parentTransform": {
+        "HandleRefId": "0"
+      },
+      "renderingPlaneAnimationParam": {
+        "$type": "CName",
+        "$storage": "string",
+        "$value": "None"
+      },
+      "renderSceneLayerMask": "Default",
+      "skinning": {
+        "HandleRefId": "1"
+      },
+      "useProxyMeshAsShadowMesh": 0,
+      "useSkinningLOD": 0,
+      "version": 1,
+      "visibilityAnimationParam": {
+        "$type": "CName",
+        "$storage": "string",
+        "$value": "None"
+      }
+    }
+  ],
+  "compiled": [
+    {
+      "$type": "entGarmentSkinnedMeshComponent",
+      "acceptDismemberment": 1,
+      "autoHideDistance": 0,
+      "castLocalShadows": "Always",
+      "castShadows": "Always",
+      "chunkMask": "9223372036854775807",
+      "forcedLodDistance": "Default",
+      "forceLODLevel": -1,
+      "id": "1705800756912873476",
+      "isEnabled": 1,
+      "isReplicable": 0,
+      "localTransform": {
+        "$type": "WorldTransform",
+        "Orientation": {
+          "$type": "Quaternion",
+          "i": 0,
+          "j": 0,
+          "k": 0,
+          "r": 1
+        },
+        "Position": {
+          "$type": "WorldPosition",
+          "x": {
+            "$type": "FixedPoint",
+            "Bits": 0
+          },
+          "y": {
+            "$type": "FixedPoint",
+            "Bits": 0
+          },
+          "z": {
+            "$type": "FixedPoint",
+            "Bits": 0
+          }
+        }
+      },
+      "LODMode": "AlwaysVisible",
+      "mesh": {
+        "DepotPath": {
+          "$type": "ResourcePath",
+          "$storage": "string",
+          "$value": "base\\characters\\common\\base_bodies\\woman_average\\_old_to_delete\\t0_000_waf_base__full.mesh"
+        },
+        "Flags": "Default"
+      },
+      "meshAppearance": {
+        "$type": "CName",
+        "$storage": "string",
+        "$value": "default"
+      },
+      "name": {
+        "$type": "CName",
+        "$storage": "string",
+        "$value": "t0_000_waf_base__full6143"
+      },
+      "navigationImpact": {
+        "$type": "NavGenNavigationSetting",
+        "navmeshImpact": "Ignored"
+      },
+      "order": 0,
+      "overrideMeshNavigationImpact": 1,
+      "parentTransform": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "entHardTransformBinding",
+          "bindName": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "root"
+          },
+          "enabled": 1,
+          "enableMask": {
+            "$type": "entTagMask",
+            "excludedTags": {
+              "$type": "redTagList",
+              "tags": [
+                {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "NoBinding"
+                }
+              ]
+            },
+            "hardTags": {
+              "$type": "redTagList",
+              "tags": []
+            },
+            "softTags": {
+              "$type": "redTagList",
+              "tags": []
+            }
+          },
+          "slotName": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "None"
+          }
+        }
+      },
+      "renderingPlaneAnimationParam": {
+        "$type": "CName",
+        "$storage": "string",
+        "$value": "None"
+      },
+      "renderSceneLayerMask": "Default",
+      "skinning": {
+        "HandleId": "1",
+        "Data": {
+          "$type": "entSkinningBinding",
+          "bindName": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "root"
+          },
+          "enabled": 1,
+          "enableMask": {
+            "$type": "entTagMask",
+            "excludedTags": {
+              "$type": "redTagList",
+              "tags": [
+                {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "NoBinding"
+                }
+              ]
+            },
+            "hardTags": {
+              "$type": "redTagList",
+              "tags": []
+            },
+            "softTags": {
+              "$type": "redTagList",
+              "tags": []
+            }
+          }
+        }
+      },
+      "useProxyMeshAsShadowMesh": 0,
+      "useSkinningLOD": 0,
+      "version": 1,
+      "visibilityAnimationParam": {
+        "$type": "CName",
+        "$storage": "string",
+        "$value": "None"
+      }
+    }
+  ],
+  "source_depot": "base\\characters\\common\\base_bodies\\t0_000_waf_base__full.ent",
+  "source_sha256": "1836ba51fe423595fb358fc07671a3b430f68df835dece5d7362de7d8da4e635"
+}

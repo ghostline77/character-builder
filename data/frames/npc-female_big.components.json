@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "frame": "female_big",
+  "donor": "quests/templates/characters/components/donors/npc-female_big.app.json",
+  "prototypes": [
+    {
+      "id": "rhino",
+      "appearance": "_mq025__rhino"
+    },
+    {
+      "id": "head_h0_063_wba_b__middle",
+      "appearance": "grunt__lvl1_01"
+    },
+    {
+      "id": "head_h0_055_wba_c__middle",
+      "appearance": "grunt__lvl2_01"
+    },
+    {
+      "id": "head_h0_066_wba_l__middle",
+      "appearance": "elite__lvl2_02"
+    }
+  ],
+  "modules": {
+    "version": 1,
+    "heads": {
+      "rhino": {
+        "head": [
+          "LightBlocking3231",
+          "face_rig",
+          "h0_000_wba_c__basehead",
+          "he_000_wba_c__basehead",
+          "heb_000_wba_c__basehead",
+          "ht_000_wba_c__basehead",
+          "jaw",
+          "man_face_base_animations"
+        ],
+        "hair": [
+          "hair_dangle",
+          "hh_050_ma__johnny_silverhand_npc",
+          "hh_063_wba__messy_bob0017"
+        ],
+        "outfit": [
+          "g1_010_mba_gloves__fighting6018",
+          "l1_005_wba_pants__tracksuit1636",
+          "s1_002_mb_shoe__converse_high1534",
+          "t0_000_wba_base__tag6180",
+          "t0_000_wba_cyber_chest1186",
+          "t1_077_wba_tank__sport_bra2783"
+        ],
+        "body_family": "wba"
+      },
+      "head_h0_063_wba_b__middle": {
+        "head": [
+          "LightBlocking3231",
+          "face_rig",
+          "h0_000_mb_c__basehead",
+          "h0_000_wba_c__middle_cyberware_sides0560",
+          "he_000_mb_c__basehead",
+          "heb_063_wba_b__middle",
+          "ht_000_mb_c__basehead",
+          "jaw",
+          "man_face_base_animations"
+        ],
+        "hair": [
+          "hh_007_mb__demo",
+          "hh_021_ma__player_shadow_npc"
+        ],
+        "outfit": [
+          "l1_005_wba_pants__tracksuit1636",
+          "s1_004_mb_shoe__sneakers_high5408",
+          "t0_000_wba_base__twag8733",
+          "t0_000_wba_cyber_belly2523",
+          "t0_000_wba_cyber_chest1186",
+          "t1_077_wba_tank__sport_bra2783"
+        ],
+        "body_family": "wba"
+      },
+      "head_h0_055_wba_c__middle": {
+        "head": [
+          "LightBlocking3231",
+          "face_rig",
+          "h0_000_mb_c__basehead",
+          "he_000_mb_c__basehead",
+          "heb_055_wba_c__middle",
+          "ht_000_mb_c__basehead",
+          "hx_055_wba_c__middle_makeup_lips_01",
+          "jaw",
+          "man_face_base_animations"
+        ],
+        "hair": [
+          "hair_dangle",
+          "hh_069_wba__animals_044800",
+          "hh_069_wba__animals_04_band",
+          "hh_083_ma__ponytail_01_shadow_npc"
+        ],
+        "outfit": [
+          "g1_004_mb_gloves__boxer2925",
+          "l1_070_mba_pants__loose5151",
+          "s1_050_mb_boot__taxi6803",
+          "t0_000_wba_base__tag6180",
+          "t0_000_wba_cyber_arms2664",
+          "t0_000_wba_cyber_chest1186",
+          "t1_011_wba_tank__plain5307"
+        ],
+        "body_family": "wba"
+      },
+      "head_h0_066_wba_l__middle": {
+        "head": [
+          "LightBlocking3231",
+          "face_rig",
+          "h0_066_wba_l__middle",
+          "h0_066_wba_l__middle_cyberware_faceguard5317",
+          "h0_066_wba_l__middle_pattern_015861",
+          "he_066_wba_l__middle",
+          "heb_066_wba_l__middle",
+          "ht_066_wba_l__middle",
+          "jaw",
+          "man_face_base_animations"
+        ],
+        "hair": [
+          "hh_022_mb__chrome_celeb",
+          "hh_090_wa__alt_shadow_npc"
+        ],
+        "outfit": [
+          "g1_010_mba_gloves__fighting6018",
+          "l1_013_wba_shorts__small3807",
+          "s1_002_mb_shoe__converse_high1534",
+          "t0_000_wba_base__full6715",
+          "t0_000_wba_base__tag_pattern_013583",
+          "t0_000_wba_cyber_arms2664",
+          "t0_000_wba_cyber_belly2523",
+          "t0_000_wba_cyber_chest1186",
+          "t0_000_wba_cyber_legs4848",
+          "t1_077_wba_tank__sport_bra2783"
+        ],
+        "body_family": "wba"
+      }
+    },
+    "bodies": {
+      "wba": "quests/templates/characters/components/bodies/npc-wba.components.json"
+    }
+  }
+}

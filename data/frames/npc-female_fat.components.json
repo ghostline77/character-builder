@@ -1,0 +1,290 @@
+{
+  "schema_version": 1,
+  "frame": "female_fat",
+  "donor": "quests/templates/characters/components/donors/npc-female_fat.app.json",
+  "prototypes": [
+    {
+      "id": "tenant",
+      "appearance": "tenant_01"
+    },
+    {
+      "id": "head_h0_064_waf_b__middle",
+      "appearance": "caribbean_02"
+    },
+    {
+      "id": "head_h0_057_waf_b__middle",
+      "appearance": "caribbean_03"
+    },
+    {
+      "id": "head_h0_075_waf_a__young",
+      "appearance": "tenant_02"
+    },
+    {
+      "id": "head_h0_708_waf_c__middle",
+      "appearance": "corpo_05"
+    },
+    {
+      "id": "head_h0_710_waf_c__middle",
+      "appearance": "caribbean_07"
+    },
+    {
+      "id": "head_h0_060_waf_l__middle",
+      "appearance": "tenant_06"
+    },
+    {
+      "id": "head_h0_725_waf_c__middle",
+      "appearance": "corpo_04"
+    },
+    {
+      "id": "head_h0_748_waf_c__middle",
+      "appearance": "corpo_06"
+    }
+  ],
+  "modules": {
+    "version": 1,
+    "heads": {
+      "tenant": {
+        "head": [
+          "LightBlocking3231",
+          "eyes",
+          "face_rig",
+          "h0_000_wa__basehead",
+          "jaw",
+          "man_face_base_animations",
+          "teeth"
+        ],
+        "hair": [
+          "hh_064_waf__bob_fringe6800",
+          "hh_078_wa__evelyn_shadow_npc"
+        ],
+        "outfit": [
+          "collar",
+          "l1_041_waf_skirt__mini_bottom",
+          "s1_038_waf_shoe__thick_sole6401",
+          "t0_000_waf_base__full6143",
+          "t1_011_waf_tank__plain6331",
+          "t2_075_waf_jacket__tied4063"
+        ],
+        "body_family": "waf"
+      },
+      "head_h0_064_waf_b__middle": {
+        "head": [
+          "LightBlocking3231",
+          "face_rig",
+          "h0_000_wa_c__basehead",
+          "he_000_wa_c__basehead",
+          "heb_064_waf_b__middle",
+          "ht_000_wa_c__basehead",
+          "jaw",
+          "man_face_base_animations"
+        ],
+        "hair": [
+          "hh_085_ma__takemura_shadow_npc",
+          "hh_085_waf__takemura_common2728"
+        ],
+        "outfit": [
+          "Animated0506",
+          "i1_001_wa_earring__maman_brigitte6866",
+          "i1_031_waf_wrist__wool_forearm",
+          "l1_053_waf_pants__taxi",
+          "s1_038_waf_shoe__thick_sole6401",
+          "t0_000_waf_base__full6143",
+          "t1_074_waf_tank__torn_shirt6020"
+        ],
+        "body_family": "waf"
+      },
+      "head_h0_057_waf_b__middle": {
+        "head": [
+          "LightBlocking3231",
+          "face_rig",
+          "h0_000_wa_c__basehead",
+          "he_000_wa_c__basehead",
+          "heb_057_waf_b__middle",
+          "ht_000_wa_c__basehead",
+          "jaw",
+          "man_face_base_animations"
+        ],
+        "hair": [
+          "hair_dangle",
+          "hh_011_waf__demo1381",
+          "hh_050_ma__johnny_silverhand_npc"
+        ],
+        "outfit": [
+          "l1_054_waf_shorts__latino",
+          "s1_059_waf_boot__judy6716",
+          "t0_000_waf_base__full6143",
+          "t1_035_waf_shirt__suit6300"
+        ],
+        "body_family": "waf"
+      },
+      "head_h0_075_waf_a__young": {
+        "head": [
+          "LightBlocking3231",
+          "face_rig",
+          "h0_000_wa_c__basehead",
+          "he_000_wa_c__basehead",
+          "heb_075_waf_a__young",
+          "ht_000_wa_c__basehead",
+          "jaw",
+          "man_face_base_animations"
+        ],
+        "hair": [
+          "hair_dangle",
+          "hh_040_wa__pixie_bob_shadow_npc",
+          "hh_040_waf__pixie_bob6887"
+        ],
+        "outfit": [
+          "a0_005_wa_arms__plated_fist",
+          "a0_005_wa_arms__plated_fist_right",
+          "a0_005_wa_arms__plated_fist_skin",
+          "a0_005_wa_arms__plated_fist_skin_right",
+          "l1_020_waf_shorts__boxers",
+          "s1_059_waf_boot__judy6716",
+          "t0_000_waf_base__full6143",
+          "t1_024_waf_tshirt__sweater5251",
+          "tattoo_waf__legs0580"
+        ],
+        "body_family": "waf"
+      },
+      "head_h0_708_waf_c__middle": {
+        "head": [
+          "LightBlocking3231",
+          "face_rig",
+          "h0_000_wa_c__basehead",
+          "he_000_wa_c__basehead",
+          "heb_708_waf_c__middle",
+          "ht_000_wa_c__basehead",
+          "hx_708_waf_c__middle_makeup_freckles_01",
+          "hx_708_waf_c__middle_pimples_01",
+          "jaw",
+          "man_face_base_animations"
+        ],
+        "hair": [
+          "hh_037_waf__gungho8031",
+          "hh_062_ma__slick_back_shadow_npc"
+        ],
+        "outfit": [
+          "calf",
+          "l0_007_wa_tights__a0_005_cyber2770",
+          "l1_041_waf_skirt__mini_bottom",
+          "s1_038_waf_shoe__thick_sole6401",
+          "simple_collar",
+          "t0_000_waf_base__full6143",
+          "t2_120_waf_jacket__suit_03",
+          "t2_120_waf_jacket__suit_sleeves_03",
+          "tights"
+        ],
+        "body_family": "waf"
+      },
+      "head_h0_710_waf_c__middle": {
+        "head": [
+          "LightBlocking3231",
+          "face_rig",
+          "h0_000_wa_c__basehead",
+          "he_000_wa_c__basehead",
+          "heb_710_waf_c__middle",
+          "ht_000_wa_c__basehead",
+          "hx_710_waf_c__middle_pimples_01",
+          "jaw",
+          "man_face_base_animations"
+        ],
+        "hair": [
+          "hh_065_ma__afro_knots_shadow_npc",
+          "hh_065_waf__afro_knots3741"
+        ],
+        "outfit": [
+          "collar",
+          "l1_012_waf_pants__jeans_tight7047",
+          "s1_059_waf_boot__judy6716",
+          "t0_000_waf_base__full6143",
+          "t2_075_waf_jacket__tied4063"
+        ],
+        "body_family": "waf"
+      },
+      "head_h0_060_waf_l__middle": {
+        "head": [
+          "LightBlocking3231",
+          "face_rig",
+          "h0_060_waf_l__middle",
+          "he_060_waf_l__middle",
+          "heb_060_waf_l__middle",
+          "ht_060_waf_l__middle",
+          "jaw",
+          "man_face_base_animations"
+        ],
+        "hair": [
+          "hh_068_ma__animals_03_shadow_npc",
+          "hh_068_waf__animals_033647",
+          "hh_068_waf__animals_band"
+        ],
+        "outfit": [
+          "l1_054_waf_shorts__latino",
+          "s1_018_wa_shoe__bunny1452",
+          "t0_000_waf_base__full6143",
+          "t1_068_waf_tank__long_rogue",
+          "tattoo_waf__arm_r4688",
+          "tattoo_waf__torso6018"
+        ],
+        "body_family": "waf"
+      },
+      "head_h0_725_waf_c__middle": {
+        "head": [
+          "LightBlocking3231",
+          "face_rig",
+          "h0_000_wa_c__basehead",
+          "he_000_wa_c__basehead",
+          "heb_725_waf_c__middle",
+          "ht_000_wa_c__basehead",
+          "hx_725_waf_c__middle_makeup_eyes_01",
+          "hx_725_waf_c__middle_makeup_freckles_01",
+          "hx_725_waf_c__middle_pimples_01",
+          "jaw",
+          "man_face_base_animations"
+        ],
+        "hair": [
+          "hairDangle",
+          "hh_151_wa__judy_v02_shadow_npc",
+          "hh_151_waf__judy_variation02_common3001"
+        ],
+        "outfit": [
+          "i1_117_waf_wrist__dex_watch",
+          "l1_081_waf_pants__suit",
+          "s1_059_waf_boot__judy6716",
+          "simple_collar",
+          "t0_000_waf_base__full6143",
+          "t2_120_waf_jacket__suit_03",
+          "t2_120_waf_jacket__suit_sleeves_03"
+        ],
+        "body_family": "waf"
+      },
+      "head_h0_748_waf_c__middle": {
+        "head": [
+          "LightBlocking3231",
+          "face_rig",
+          "h0_060_waf_l__middle",
+          "he_748_waf_c__middle",
+          "heb_748_waf_c__middle",
+          "ht_748_waf_c__middle",
+          "jaw",
+          "man_face_base_animations"
+        ],
+        "hair": [
+          "hh_049_waf__thiago_common7105",
+          "hh_062_ma__slick_back_shadow_npc"
+        ],
+        "outfit": [
+          "l1_081_waf_pants__suit",
+          "s1_027_waf_shoe__heel_pointy",
+          "simple_collar",
+          "t0_000_waf_base__full6143",
+          "t2_120_waf_jacket__suit_03",
+          "t2_120_waf_jacket__suit_sleeves_03"
+        ],
+        "body_family": "waf"
+      }
+    },
+    "bodies": {
+      "waf": "quests/templates/characters/components/bodies/npc-waf.components.json"
+    }
+  }
+}

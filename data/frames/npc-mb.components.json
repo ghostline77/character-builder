@@ -1,0 +1,470 @@
+{
+  "normal": [
+    {
+      "$type": "entGarmentSkinnedMeshComponent",
+      "acceptDismemberment": 1,
+      "autoHideDistance": 0,
+      "castLocalShadows": "Never",
+      "castShadows": "Never",
+      "chunkMask": "9223372036854775807",
+      "forcedLodDistance": "Default",
+      "forceLODLevel": -1,
+      "id": "1722982815168843776",
+      "isEnabled": 1,
+      "isReplicable": 0,
+      "localTransform": {
+        "$type": "WorldTransform",
+        "Orientation": {
+          "$type": "Quaternion",
+          "i": 0,
+          "j": 0,
+          "k": 0,
+          "r": 1
+        },
+        "Position": {
+          "$type": "WorldPosition",
+          "x": {
+            "$type": "FixedPoint",
+            "Bits": 0
+          },
+          "y": {
+            "$type": "FixedPoint",
+            "Bits": 0
+          },
+          "z": {
+            "$type": "FixedPoint",
+            "Bits": 0
+          }
+        }
+      },
+      "LODMode": "AlwaysVisible",
+      "mesh": {
+        "DepotPath": {
+          "$type": "ResourcePath",
+          "$storage": "string",
+          "$value": "base\\characters\\common\\base_bodies\\man_big\\t0_000_mb_base__full.mesh"
+        },
+        "Flags": "Default"
+      },
+      "meshAppearance": {
+        "$type": "CName",
+        "$storage": "string",
+        "$value": "default"
+      },
+      "name": {
+        "$type": "CName",
+        "$storage": "string",
+        "$value": "t0_000_mb__c_base_full0973"
+      },
+      "navigationImpact": {
+        "$type": "NavGenNavigationSetting",
+        "navmeshImpact": "Ignored"
+      },
+      "order": 0,
+      "overrideMeshNavigationImpact": 1,
+      "parentTransform": {
+        "HandleRefId": "0"
+      },
+      "renderingPlaneAnimationParam": {
+        "$type": "CName",
+        "$storage": "string",
+        "$value": "None"
+      },
+      "renderSceneLayerMask": "Default",
+      "skinning": {
+        "HandleRefId": "1"
+      },
+      "useProxyMeshAsShadowMesh": 0,
+      "useSkinningLOD": 0,
+      "version": 1,
+      "visibilityAnimationParam": {
+        "$type": "CName",
+        "$storage": "string",
+        "$value": "None"
+      }
+    },
+    {
+      "$type": "entGarmentSkinnedMeshComponent",
+      "acceptDismemberment": 1,
+      "autoHideDistance": 0,
+      "castLocalShadows": "Default",
+      "castShadows": "Default",
+      "chunkMask": "18446744073709551608",
+      "forcedLodDistance": "Default",
+      "forceLODLevel": -1,
+      "id": "3721743512447119360",
+      "isEnabled": 1,
+      "isReplicable": 0,
+      "localTransform": {
+        "$type": "WorldTransform",
+        "Orientation": {
+          "$type": "Quaternion",
+          "i": 0,
+          "j": 0,
+          "k": 0,
+          "r": 1
+        },
+        "Position": {
+          "$type": "WorldPosition",
+          "x": {
+            "$type": "FixedPoint",
+            "Bits": 0
+          },
+          "y": {
+            "$type": "FixedPoint",
+            "Bits": 0
+          },
+          "z": {
+            "$type": "FixedPoint",
+            "Bits": 0
+          }
+        }
+      },
+      "LODMode": "AlwaysVisible",
+      "mesh": {
+        "DepotPath": {
+          "$type": "ResourcePath",
+          "$storage": "string",
+          "$value": "base\\characters\\common\\base_bodies\\man_big\\arms_hq\\nails\\a0_000_mb_base__nails.mesh"
+        },
+        "Flags": "Default"
+      },
+      "meshAppearance": {
+        "$type": "CName",
+        "$storage": "string",
+        "$value": "default"
+      },
+      "name": {
+        "$type": "CName",
+        "$storage": "string",
+        "$value": "a0_000_mb_base__nails"
+      },
+      "navigationImpact": {
+        "$type": "NavGenNavigationSetting",
+        "navmeshImpact": "Ignored"
+      },
+      "order": 0,
+      "overrideMeshNavigationImpact": 1,
+      "parentTransform": {
+        "HandleRefId": "2"
+      },
+      "renderingPlaneAnimationParam": {
+        "$type": "CName",
+        "$storage": "string",
+        "$value": "None"
+      },
+      "renderSceneLayerMask": "Default",
+      "skinning": {
+        "HandleRefId": "3"
+      },
+      "useProxyMeshAsShadowMesh": 0,
+      "useSkinningLOD": 0,
+      "version": 1,
+      "visibilityAnimationParam": {
+        "$type": "CName",
+        "$storage": "string",
+        "$value": "None"
+      }
+    }
+  ],
+  "compiled": [
+    {
+      "$type": "entGarmentSkinnedMeshComponent",
+      "acceptDismemberment": 1,
+      "autoHideDistance": 0,
+      "castLocalShadows": "Never",
+      "castShadows": "Never",
+      "chunkMask": "9223372036854775807",
+      "forcedLodDistance": "Default",
+      "forceLODLevel": -1,
+      "id": "1722982815168843776",
+      "isEnabled": 1,
+      "isReplicable": 0,
+      "localTransform": {
+        "$type": "WorldTransform",
+        "Orientation": {
+          "$type": "Quaternion",
+          "i": 0,
+          "j": 0,
+          "k": 0,
+          "r": 1
+        },
+        "Position": {
+          "$type": "WorldPosition",
+          "x": {
+            "$type": "FixedPoint",
+            "Bits": 0
+          },
+          "y": {
+            "$type": "FixedPoint",
+            "Bits": 0
+          },
+          "z": {
+            "$type": "FixedPoint",
+            "Bits": 0
+          }
+        }
+      },
+      "LODMode": "AlwaysVisible",
+      "mesh": {
+        "DepotPath": {
+          "$type": "ResourcePath",
+          "$storage": "string",
+          "$value": "base\\characters\\common\\base_bodies\\man_big\\t0_000_mb_base__full.mesh"
+        },
+        "Flags": "Default"
+      },
+      "meshAppearance": {
+        "$type": "CName",
+        "$storage": "string",
+        "$value": "default"
+      },
+      "name": {
+        "$type": "CName",
+        "$storage": "string",
+        "$value": "t0_000_mb__c_base_full0973"
+      },
+      "navigationImpact": {
+        "$type": "NavGenNavigationSetting",
+        "navmeshImpact": "Ignored"
+      },
+      "order": 0,
+      "overrideMeshNavigationImpact": 1,
+      "parentTransform": {
+        "HandleId": "0",
+        "Data": {
+          "$type": "entHardTransformBinding",
+          "bindName": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "root"
+          },
+          "enabled": 1,
+          "enableMask": {
+            "$type": "entTagMask",
+            "excludedTags": {
+              "$type": "redTagList",
+              "tags": [
+                {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "NoBinding"
+                }
+              ]
+            },
+            "hardTags": {
+              "$type": "redTagList",
+              "tags": []
+            },
+            "softTags": {
+              "$type": "redTagList",
+              "tags": []
+            }
+          },
+          "slotName": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "None"
+          }
+        }
+      },
+      "renderingPlaneAnimationParam": {
+        "$type": "CName",
+        "$storage": "string",
+        "$value": "None"
+      },
+      "renderSceneLayerMask": "Default",
+      "skinning": {
+        "HandleId": "1",
+        "Data": {
+          "$type": "entSkinningBinding",
+          "bindName": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "root"
+          },
+          "enabled": 1,
+          "enableMask": {
+            "$type": "entTagMask",
+            "excludedTags": {
+              "$type": "redTagList",
+              "tags": [
+                {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "NoBinding"
+                }
+              ]
+            },
+            "hardTags": {
+              "$type": "redTagList",
+              "tags": []
+            },
+            "softTags": {
+              "$type": "redTagList",
+              "tags": []
+            }
+          }
+        }
+      },
+      "useProxyMeshAsShadowMesh": 0,
+      "useSkinningLOD": 0,
+      "version": 1,
+      "visibilityAnimationParam": {
+        "$type": "CName",
+        "$storage": "string",
+        "$value": "None"
+      }
+    },
+    {
+      "$type": "entGarmentSkinnedMeshComponent",
+      "acceptDismemberment": 1,
+      "autoHideDistance": 0,
+      "castLocalShadows": "Default",
+      "castShadows": "Default",
+      "chunkMask": "18446744073709551608",
+      "forcedLodDistance": "Default",
+      "forceLODLevel": -1,
+      "id": "3721743512447119360",
+      "isEnabled": 1,
+      "isReplicable": 0,
+      "localTransform": {
+        "$type": "WorldTransform",
+        "Orientation": {
+          "$type": "Quaternion",
+          "i": 0,
+          "j": 0,
+          "k": 0,
+          "r": 1
+        },
+        "Position": {
+          "$type": "WorldPosition",
+          "x": {
+            "$type": "FixedPoint",
+            "Bits": 0
+          },
+          "y": {
+            "$type": "FixedPoint",
+            "Bits": 0
+          },
+          "z": {
+            "$type": "FixedPoint",
+            "Bits": 0
+          }
+        }
+      },
+      "LODMode": "AlwaysVisible",
+      "mesh": {
+        "DepotPath": {
+          "$type": "ResourcePath",
+          "$storage": "string",
+          "$value": "base\\characters\\common\\base_bodies\\man_big\\arms_hq\\nails\\a0_000_mb_base__nails.mesh"
+        },
+        "Flags": "Default"
+      },
+      "meshAppearance": {
+        "$type": "CName",
+        "$storage": "string",
+        "$value": "default"
+      },
+      "name": {
+        "$type": "CName",
+        "$storage": "string",
+        "$value": "a0_000_mb_base__nails"
+      },
+      "navigationImpact": {
+        "$type": "NavGenNavigationSetting",
+        "navmeshImpact": "Ignored"
+      },
+      "order": 0,
+      "overrideMeshNavigationImpact": 1,
+      "parentTransform": {
+        "HandleId": "2",
+        "Data": {
+          "$type": "entHardTransformBinding",
+          "bindName": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "root"
+          },
+          "enabled": 1,
+          "enableMask": {
+            "$type": "entTagMask",
+            "excludedTags": {
+              "$type": "redTagList",
+              "tags": [
+                {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "NoBinding"
+                }
+              ]
+            },
+            "hardTags": {
+              "$type": "redTagList",
+              "tags": []
+            },
+            "softTags": {
+              "$type": "redTagList",
+              "tags": []
+            }
+          },
+          "slotName": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "None"
+          }
+        }
+      },
+      "renderingPlaneAnimationParam": {
+        "$type": "CName",
+        "$storage": "string",
+        "$value": "None"
+      },
+      "renderSceneLayerMask": "Default",
+      "skinning": {
+        "HandleId": "3",
+        "Data": {
+          "$type": "entSkinningBinding",
+          "bindName": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "root"
+          },
+          "enabled": 1,
+          "enableMask": {
+            "$type": "entTagMask",
+            "excludedTags": {
+              "$type": "redTagList",
+              "tags": [
+                {
+                  "$type": "CName",
+                  "$storage": "string",
+                  "$value": "NoBinding"
+                }
+              ]
+            },
+            "hardTags": {
+              "$type": "redTagList",
+              "tags": []
+            },
+            "softTags": {
+              "$type": "redTagList",
+              "tags": []
+            }
+          }
+        }
+      },
+      "useProxyMeshAsShadowMesh": 0,
+      "useSkinningLOD": 0,
+      "version": 1,
+      "visibilityAnimationParam": {
+        "$type": "CName",
+        "$storage": "string",
+        "$value": "None"
+      }
+    }
+  ],
+  "source_depot": "base\\characters\\common\\base_bodies\\t0_000_mb_base__full.ent",
+  "source_sha256": "548c7ebf02bba5dfc00d71310c51fb0747f3574f20e17aa54c0dad7752bb665c"
+}

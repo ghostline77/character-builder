@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "type": "module",
+  "name": "@ghostline/character-builder-ui",
+  "scripts": {
+    "build": "node ../../ui-core/tooling/build-ui.mjs .",
+    "dev": "node ../../ui-core/tooling/build-ui.mjs . --dev"
+  },
+  "dependencies": {
+    "@ghostline/ui-core": "*",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "three": "^0.187.0"
+  }
+}

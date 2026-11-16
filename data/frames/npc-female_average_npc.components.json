@@ -1,0 +1,676 @@
+{
+  "schema_version": 1,
+  "frame": "female_average_npc",
+  "donor": "quests/templates/characters/components/donors/npc-female_average_npc.app.json",
+  "prototypes": [
+    {
+      "id": "head_h0_023_wa_a__middle",
+      "appearance": "q000_ayumi_gozen"
+    },
+    {
+      "id": "head_h0_019_wa_c__young",
+      "appearance": "q000_house_staff_bartender"
+    },
+    {
+      "id": "head_h0_000_wa__basehead",
+      "appearance": "q000_house_staff_staff"
+    },
+    {
+      "id": "head_h0_009_wa_c__young",
+      "appearance": "q108_alt"
+    },
+    {
+      "id": "head_h0_001_wa_c__rogue_young",
+      "appearance": "q108_rogue"
+    },
+    {
+      "id": "head_h0_028_wa_b__young",
+      "appearance": "q115_arasaka_guard_female_01"
+    },
+    {
+      "id": "head_h0_036_wa_a__middle",
+      "appearance": "q115_arasaka_guard_female_04"
+    },
+    {
+      "id": "head_h0_029_wa_a__older",
+      "appearance": "sq003_mother"
+    },
+    {
+      "id": "head_h0_001_wa_b__t_bug",
+      "appearance": "panam"
+    },
+    {
+      "id": "head_h0_011_wa_b__young",
+      "appearance": "q108_bodyguard_01"
+    },
+    {
+      "id": "head_h0_001_wa_c__demo_vicky",
+      "appearance": "v_street_kid_suit"
+    },
+    {
+      "id": "head_h0_001_wa_c__militech_agent",
+      "appearance": "sq019_medusa"
+    },
+    {
+      "id": "head_h0_718_wa_c__older",
+      "appearance": "mama_welles"
+    },
+    {
+      "id": "head_h0_053_wa_b__middle",
+      "appearance": "sq019_hologram"
+    },
+    {
+      "id": "head_h0_021_wa_c__middle",
+      "appearance": "q005_cleaning_lady_01"
+    },
+    {
+      "id": "head_h0_033_wa_c__young",
+      "appearance": "q005_cleaning_lady_03"
+    },
+    {
+      "id": "head_h0_040_wa_a__young",
+      "appearance": "mq027_director"
+    },
+    {
+      "id": "head_h0_001_wa_c__misty",
+      "appearance": "totentanz_barman"
+    },
+    {
+      "id": "head_h0_061_wa_b__older_tu",
+      "appearance": "mq026_disciple"
+    },
+    {
+      "id": "head_h0_043_wa_b__middle",
+      "appearance": "mq039_veteran_netrunner"
+    },
+    {
+      "id": "head_h0_009_wa_c__old",
+      "appearance": "sq018_mom"
+    }
+  ],
+  "modules": {
+    "version": 1,
+    "heads": {
+      "head_h0_023_wa_a__middle": {
+        "head": [
+          "LightBlocking3231",
+          "face_rig",
+          "h0_023_wa_a__middle",
+          "he_023_wa_a__middle",
+          "heb_023_wa_a__middle",
+          "ht_023_wa_a__middle",
+          "jaw",
+          "man_face_base_animations"
+        ],
+        "hair": [],
+        "outfit": [
+          "a0_000_wa_base__nails_l",
+          "a0_000_wa_base__nails_r",
+          "l1_010_wa_pants__heels6274",
+          "t0_000_wa__c_base_full0"
+        ],
+        "body_family": "wa"
+      },
+      "head_h0_019_wa_c__young": {
+        "head": [
+          "LightBlocking3231",
+          "face_rig",
+          "h0_019_wa_c__young2761",
+          "he_019_wa_c__young",
+          "heb_006_ma_c__middle",
+          "ht_019_wa_c__young",
+          "jaw",
+          "man_face_base_animations"
+        ],
+        "hair": [
+          "hair_dangle",
+          "hh_008_wa__demo",
+          "hh_008_wa__demo_shadow_npc"
+        ],
+        "outfit": [
+          "an0_001_wa__left",
+          "an0_001_wa__right",
+          "i1_040_neck__stewardess",
+          "l1_010_wa_pants__heels6274",
+          "t0_001_wa__c_base_twah9897",
+          "t2_030_wa_jacket__suit"
+        ],
+        "body_family": "wa"
+      },
+      "head_h0_000_wa__basehead": {
+        "head": [
+          "LightBlocking3231",
+          "eyes",
+          "face_rig",
+          "h0_000_wa__basehead",
+          "heb_000_wa__basehead",
+          "hx_000_wa__basehead_makeup_eyes_01",
+          "hx_000_wa__basehead_makeup_freckles_01",
+          "hx_000_wa__basehead_makeup_lips_01",
+          "hx_000_wa__basehead_pimples_01",
+          "jaw",
+          "man_face_base_animations",
+          "teeth"
+        ],
+        "hair": [],
+        "outfit": [
+          "GarmentSkinnedMesh9865",
+          "SkinnedMesh6043",
+          "an0_001_wa__left",
+          "an0_001_wa__right",
+          "i1_040_neck__stewardess",
+          "l0_000_wa_base__thigh",
+          "q105_hologram_effects",
+          "s1_041_wa_shoe__body",
+          "t0_001_wa__c_base_twah9897"
+        ],
+        "body_family": "wa"
+      },
+      "head_h0_009_wa_c__young": {
+        "head": [
+          "LightBlocking3231",
+          "eyes",
+          "face_rig",
+          "h0_009_wa_c__young4510",
+          "heb_009_wa_c__young",
+          "hx_009_wa_c__young_makeup_freckles_01",
+          "jaw",
+          "man_face_base_animations",
+          "teeth"
+        ],
+        "hair": [
+          "hh_022_wa__chrome_celeb",
+          "hh_090_wa__alt_shadow_npc"
+        ],
+        "outfit": [
+          "an0_001_wa__left",
+          "an0_001_wa__right",
+          "g1_001_wa_glove__judy8242",
+          "l1_010_wa_pants__heels6274",
+          "t0_002_wa__c_base_tah5424",
+          "t1_011_wa_tank__plain0063"
+        ],
+        "body_family": "wa"
+      },
+      "head_h0_001_wa_c__rogue_young": {
+        "head": [
+          "LightBlocking3231",
+          "face_rig",
+          "h0_001_wa_c__rogue_young",
+          "he_001_wa_c__rogue_young",
+          "heb_001_wa_c__rogue_young",
+          "ht_001_wa_c__rogue_young",
+          "hx_001_wa_c__rogue_young_makeup_eyes_01",
+          "hx_001_wa_c__rogue_young_makeup_freckles_01",
+          "hx_001_wa_c__rogue_young_makeup_lips_01",
+          "jaw",
+          "man_face_base_animations"
+        ],
+        "hair": [
+          "hair_dangle",
+          "hh_033_wa__player",
+          "hh_033_wa__player_shadow_npc"
+        ],
+        "outfit": [
+          "Animated2476",
+          "SkinnedCloth5084",
+          "an0_001_wa__left",
+          "an0_001_wa__right",
+          "g1_001_wa_gloves__rogue0171",
+          "i1_002_wa_belt__rogue_weapon_holster6124",
+          "i1_003_wa_neck__rogue_choker6231",
+          "l1_001_wa_pants__rogue6820",
+          "s1_001_wa_boot__rogue8121",
+          "t0_001_wa_body__rogue3185",
+          "t0_001_wa_body__rogue_chest_dec_01",
+          "t0_002_wa_body__rogue_cyberware7688",
+          "t1_001_wa_tank__rogue_short2522"
+        ],
+        "body_family": "wa"
+      },
+      "head_h0_028_wa_b__young": {
+        "head": [
+          "LightBlocking3231",
+          "face_rig",
+          "h0_028_wa_b__young3317",
+          "he_028_wa_b__young",
+          "heb_028_wa_b__young",
+          "ht_028_wa_b__young",
+          "hx_028_wa_b__young_pimples_01",
+          "jaw",
+          "man_face_base_animations"
+        ],
+        "hair": [],
+        "outfit": [
+          "an0_001_wa__left",
+          "an0_001_wa__right",
+          "head8268",
+          "s1_011_wa_boot__heel_sneakers8195",
+          "t0_001_wa__c_base_twah9897",
+          "t1_022_wa_full__body_suit8496"
+        ],
+        "body_family": "wa"
+      },
+      "head_h0_036_wa_a__middle": {
+        "head": [
+          "LightBlocking3231",
+          "face_rig",
+          "h0_023_wa_a__middle",
+          "he_023_wa_a__middle",
+          "heb_036_wa_a__middle",
+          "ht_023_wa_a__middle",
+          "jaw",
+          "man_face_base_animations"
+        ],
+        "hair": [
+          "hair_dangle",
+          "hh_008_wa__demo",
+          "hh_008_wa__demo_shadow_npc"
+        ],
+        "outfit": [
+          "an0_001_wa__left",
+          "an0_001_wa__right",
+          "l1_010_wa_pants__heels6274",
+          "t0_001_wa__c_base_twah9897",
+          "t2_014_wa_dress__chic7583"
+        ],
+        "body_family": "wa"
+      },
+      "head_h0_029_wa_a__older": {
+        "head": [
+          "LightBlocking3231",
+          "SkinnedMesh1139",
+          "SkinnedMesh8980",
+          "face_rig",
+          "h0_011_wa_b__young9995",
+          "heb_029_wa_a__older",
+          "jaw",
+          "man_face_base_animations"
+        ],
+        "hair": [],
+        "outfit": [
+          "a0_000_wa_base__nails_l",
+          "a0_000_wa_base__nails_r",
+          "l0_001_wa_tights__stockings7616",
+          "l0_001_wa_tights__stockings_body",
+          "s1_017_wa_sandal__flip_flop",
+          "t0_000_wa_base__collar7034",
+          "t0_003_wa__c_base_ah6888",
+          "t2_017_wa_dress__diner"
+        ],
+        "body_family": "wa"
+      },
+      "head_h0_001_wa_b__t_bug": {
+        "head": [
+          "LightBlocking3231",
+          "face_rig",
+          "h0_001_wa_b__t_bug7313",
+          "he_001_wa_b__t_bug",
+          "ht_001_wa_b__t_bug",
+          "hx_001_wa_b__t_bug_makeup_eyes_1857",
+          "jaw",
+          "man_face_base_animations"
+        ],
+        "hair": [
+          "hair_dangle",
+          "hb_001_wa_b__t_bug",
+          "hh_052_wa__clair2245",
+          "hh_052_wa__clair_shadow_npc"
+        ],
+        "outfit": [
+          "Animated2476",
+          "SkinnedCloth5084",
+          "an0_001_wa__left",
+          "an0_001_wa__right",
+          "i1_002_wa_belt__rogue_weapon_holster6124",
+          "l1_012_wa_pants__jeans_tight7549",
+          "s1_026_wa_boot__heavy8613",
+          "t0_002_wa__c_base_tah5424",
+          "t1_066_wa_full__bodysuit_sweater",
+          "t1_066_wa_full__bodysuit_sweater_straps"
+        ],
+        "body_family": "wa"
+      },
+      "head_h0_011_wa_b__young": {
+        "head": [
+          "LightBlocking3231",
+          "SkinnedMesh8980",
+          "face_rig",
+          "h0_011_wa_b__young9995",
+          "heb_011_wa_b__young",
+          "ht_011_wa_b__young",
+          "jaw",
+          "man_face_base_animations"
+        ],
+        "hair": [
+          "hh_039_ma__punk_shaved_shadow_npc",
+          "hh_039_wa__punk_shaved"
+        ],
+        "outfit": [
+          "GarmentSkinnedMesh9195",
+          "an0_001_wa__left",
+          "an0_001_wa__right",
+          "l1_005_wa_pants__tracksuit8575",
+          "s1_003_wa_shoe__sneakers_spiked4564",
+          "t0_001_wa__c_base_twah9897",
+          "t1_012_wa_tank__open_sides4276"
+        ],
+        "body_family": "wa"
+      },
+      "head_h0_001_wa_c__demo_vicky": {
+        "head": [
+          "LightBlocking3231",
+          "face_rig",
+          "h0_001_wa_c__demo_vicky",
+          "he_001_wa_c__demo_vicky",
+          "ht_001_wa_c__demo_vicky",
+          "jaw",
+          "man_face_base_animations"
+        ],
+        "hair": [
+          "hair_dangle",
+          "hb_001_wa_c__demo_vicky",
+          "hh_033_wa__player",
+          "hh_033_wa__player_shadow_npc"
+        ],
+        "outfit": [
+          "an0_001_wa__left",
+          "an0_001_wa__right",
+          "l0_002_wa_prostitute__full5713",
+          "s1_048_wa_boot__straps7816",
+          "t0_002_wa__c_base_tah5424",
+          "t0_004_wa__c_base_h3119",
+          "t2_014_wa_dress__chic7583"
+        ],
+        "body_family": "wa"
+      },
+      "head_h0_001_wa_c__militech_agent": {
+        "head": [
+          "LightBlocking3231",
+          "face_rig",
+          "h0_001_wa_c__militech_agent5885",
+          "h0_001_wa_c__militech_agent_cyberware",
+          "he_001_wa_c__militech_agent",
+          "heb_001_wa_c__militech_agent",
+          "ht_001_wa_c__militech_agent",
+          "hx_001_wa_c__militech_agent_makeup_eyes_01",
+          "hx_001_wa_c__militech_agent_makeup_freckles_01",
+          "hx_001_wa_c__militech_agent_makeup_lips_01",
+          "hx_001_wa_c__militech_agent_pimples_01",
+          "jaw",
+          "man_face_base_animations"
+        ],
+        "hair": [
+          "hh_028_ma__corpo_bun_shadow_npc",
+          "hh_028_wa__corpo_bun"
+        ],
+        "outfit": [
+          "an0_001_wa__left",
+          "an0_001_wa__right",
+          "l0_002_wa_platform__calf_flat0975",
+          "t0_001_wa_body__t_bug0211",
+          "t0_003_wa__c_base_ah_cyberware_l3049",
+          "t0_003_wa__c_base_ah_cyberware_r"
+        ],
+        "body_family": "wa"
+      },
+      "head_h0_718_wa_c__older": {
+        "head": [
+          "LightBlocking3231",
+          "face_rig",
+          "h0_000_wa_c__basehead",
+          "he_000_wa_c__basehead",
+          "heb_718_wa_c__older",
+          "ht_000_wa_c__basehead",
+          "jaw",
+          "man_face_base_animations"
+        ],
+        "hair": [
+          "hair_dangle",
+          "hh_050_ma__johnny_silverhand_npc",
+          "hh_063_wa__messy_bob3723"
+        ],
+        "outfit": [
+          "an0_001_wa__left",
+          "an0_001_wa__right",
+          "l0_002_wa_platform__calf_flat0975",
+          "s1_019_wa_shoe__diner",
+          "t0_003_wa__c_base_ah_cyberware_l3049",
+          "t0_003_wa__c_base_ah_cyberware_r",
+          "t2_017_wa_dress__diner"
+        ],
+        "body_family": "wa"
+      },
+      "head_h0_053_wa_b__middle": {
+        "head": [
+          "LightBlocking3231",
+          "face_rig",
+          "h0_000_wa_c__basehead",
+          "h0_019_wa_c__young2761",
+          "he_000_wa_c__basehead",
+          "he_019_wa_c__young",
+          "heb_006_ma_c__middle",
+          "heb_053_wa_b__middle",
+          "ht_000_wa_c__basehead",
+          "ht_019_wa_c__young",
+          "jaw",
+          "man_face_base_animations"
+        ],
+        "hair": [],
+        "outfit": [],
+        "body_family": "wa"
+      },
+      "head_h0_021_wa_c__middle": {
+        "head": [
+          "LightBlocking3231",
+          "SkinnedMesh4694",
+          "SkinnedMesh5459",
+          "face_rig",
+          "h0_021_wa_c__middle1825",
+          "heb_021_wa_c__middle",
+          "jaw",
+          "man_face_base_animations"
+        ],
+        "hair": [],
+        "outfit": [
+          "a0_000_wa_base__nails_l",
+          "a0_000_wa_base__nails_r",
+          "i1_040_neck__stewardess",
+          "s1_027_wa_shoe__heel_pointy5475",
+          "t0_000_wa__c_base_full0",
+          "t2_017_wa_dress__diner"
+        ],
+        "body_family": "wa"
+      },
+      "head_h0_033_wa_c__young": {
+        "head": [
+          "LightBlocking3231",
+          "face_rig",
+          "h0_033_wa_c__young7143",
+          "he_033_wa_c__young",
+          "heb_033_wa_c__young0027",
+          "ht_033_wa_c__young",
+          "jaw",
+          "man_face_base_animations"
+        ],
+        "hair": [
+          "Animated8402",
+          "hh_020_wa__mullet",
+          "hh_041_ma__valentino_shadow_npc"
+        ],
+        "outfit": [
+          "a0_000_wa_base__nails_l",
+          "a0_000_wa_base__nails_r",
+          "dangles",
+          "i1_001_wa_earring__rogue2523",
+          "s1_027_wa_shoe__heel_pointy5475",
+          "t0_000_wa__c_base_full0",
+          "t2_017_wa_dress__diner"
+        ],
+        "body_family": "wa"
+      },
+      "head_h0_040_wa_a__young": {
+        "head": [
+          "LightBlocking3231",
+          "eyes",
+          "face_rig",
+          "h0_040_wa_a__young",
+          "heb_040_wa_a__young",
+          "hx_040_wa_a__young_makeup_freckles_01",
+          "hx_040_wa_a__young_makeup_lips_01",
+          "hx_040_wa_a__young_pimples_01",
+          "jaw",
+          "man_face_base_animations",
+          "teeth"
+        ],
+        "hair": [
+          "hh_039_ma__punk_shaved_shadow_npc",
+          "hh_039_wa__punk_shaved"
+        ],
+        "outfit": [
+          "a0_000_wa_base__nails_l",
+          "a0_000_wa_base__nails_r",
+          "s1_001_wa_shoe__judy0048",
+          "t0_000_wa__c_base_full0",
+          "t1_025_wa_full__bra_pants4465"
+        ],
+        "body_family": "wa"
+      },
+      "head_h0_001_wa_c__misty": {
+        "head": [
+          "LightBlocking3231",
+          "face_rig",
+          "h0_001_wa_c__misty",
+          "he_001_wa_c__misty",
+          "heb_001_wa_c__misty",
+          "ht_001_wa_c__misty",
+          "hx_001_wa_c__misty_makeup_eyes_01",
+          "hx_001_wa_c__misty_makeup_freckles_01",
+          "hx_001_wa_c__misty_makeup_lips_01",
+          "hx_001_wa_c__misty_pimples_01",
+          "jaw",
+          "man_face_base_animations"
+        ],
+        "hair": [
+          "hh_039_ma__punk_shaved_shadow_npc",
+          "hh_039_wa__punk_shaved"
+        ],
+        "outfit": [
+          "an0_001_wa__left",
+          "an0_001_wa__right",
+          "i1_031_wa_wrist__wool_forearm3901",
+          "i1_048_wa_neck__ckoker",
+          "l1_010_wa_pants__heels6274",
+          "t0_002_wa__c_base_tah5424",
+          "t1_010_wa_tank__one_shoulder3149",
+          "tattoo_wa__arm_l",
+          "tattoo_wa__arm_r",
+          "tattoo_wa__bicep_l",
+          "tattoo_wa__bicep_r",
+          "tattoo_wa__chest_l",
+          "tattoo_wa__forearm_l",
+          "tattoo_wa__scarification_back_010140",
+          "tattoo_wa__stomach_bottom",
+          "tattoo_wa__stomach_mid_l"
+        ],
+        "body_family": "wa"
+      },
+      "head_h0_061_wa_b__older_tu": {
+        "head": [
+          "LightBlocking3231",
+          "face_rig",
+          "h0_000_wa_c__basehead",
+          "he_000_wa_c__basehead",
+          "heb_006_ma_c__middle",
+          "ht_000_wa_c__basehead",
+          "jaw",
+          "man_face_base_animations"
+        ],
+        "hair": [
+          "hh_006_ma__demo_shadow_npc",
+          "hh_006_wa__demo"
+        ],
+        "outfit": [
+          "a0_000_wa_base__nails_l",
+          "a0_000_wa_base__nails_r",
+          "l1_072_wa_pants__clair7504",
+          "s1_001_wa_boot__rogue8121",
+          "t0_000_wa__c_base_full0",
+          "t1_074_wa_tank__torn_shirt5387",
+          "t2_093_wa_jacket__collar1526",
+          "t2_093_wa_jacket__collar_collar_big"
+        ],
+        "body_family": "wa"
+      },
+      "head_h0_043_wa_b__middle": {
+        "head": [
+          "LightBlocking3231",
+          "face_rig",
+          "h0_000_wa_c__basehead",
+          "he_000_wa_c__basehead",
+          "heb_043_wa_b__middle",
+          "ht_000_wa_c__basehead",
+          "jaw",
+          "man_face_base_animations"
+        ],
+        "hair": [
+          "hh_026_wa__rat_tail6062",
+          "hh_045_ma__short_spiked_shadow_npc"
+        ],
+        "outfit": [
+          "a0_000_wa_base__nails_l",
+          "a0_000_wa_base__nails_r",
+          "dangle_setup_pants",
+          "l1_001_wa_pants__clair5872",
+          "s1_001_wa_shoe__clair8746",
+          "t0_000_wa__c_base_full0",
+          "t1_001_wa_shirt__misty2916"
+        ],
+        "body_family": "wa"
+      },
+      "head_h0_009_wa_c__old": {
+        "head": [
+          "LightBlocking3231",
+          "eyes",
+          "face_rig",
+          "h0_009_wa_c__young4510",
+          "heb_009_wa_c__old",
+          "hx_009_wa_c__old_makeup_eyes_01",
+          "hx_009_wa_c__old_makeup_freckles_01",
+          "hx_009_wa_c__old_pimples_01",
+          "jaw",
+          "man_face_base_animations",
+          "teeth"
+        ],
+        "hair": [
+          "hair_dangle",
+          "hh_095_wa__panam_shadow_npc",
+          "hh_098_wa__top_bun4103"
+        ],
+        "outfit": [
+          "an0_001_wa__left",
+          "an0_001_wa__right",
+          "earring_dangles",
+          "i1_090_wa_full__jewlery1625",
+          "i1_090_wa_full__jewlery_earrings_036106",
+          "i1_090_wa_full__jewlery_necklace_07",
+          "i1_090_wa_full__jewlery_necklace_08",
+          "i1_090_wa_full__jewlery_necklace_11",
+          "i1_090_wa_full__jewlery_signet_02_l7277",
+          "i1_090_wa_full__jewlery_signet_02_r3318",
+          "l0_002_wa_prostitute__full5713",
+          "l1_023_wa_skirt__suit9282",
+          "s1_063_wa_shoe__mexican7614",
+          "s1_063_wa_shoe__mexican_harness",
+          "t0_000_wa_base__torso2356",
+          "t0_004_wa__c_base_h3119",
+          "t1_101_wa_shirt__wakako2878"
+        ],
+        "body_family": "wa"
+      }
+    },
+    "bodies": {
+      "wa": "quests/templates/characters/components/bodies/npc-wa.components.json"
+    }
+  }
+}

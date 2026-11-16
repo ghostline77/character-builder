@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "frame": "male_fat",
+  "donor": "quests/templates/characters/components/donors/npc-male_fat.app.json",
+  "prototypes": [
+    {
+      "id": "vendor",
+      "appearance": "frank_vendor"
+    },
+    {
+      "id": "bartender",
+      "appearance": "reddirt_barman"
+    },
+    {
+      "id": "casual",
+      "appearance": "mq021_scooter"
+    },
+    {
+      "id": "head_h0_001_mf_b__dex",
+      "appearance": "cassious"
+    }
+  ],
+  "modules": {
+    "version": 1,
+    "heads": {
+      "vendor": {
+        "head": [
+          "LightBlocking3231",
+          "face_rig",
+          "h0_020_mf_c__middle",
+          "he_020_mf_c__middle",
+          "heb_020_mf_c__middle",
+          "ht_020_mf_c__middle",
+          "jaw",
+          "man_face_base_animations"
+        ],
+        "hair": [],
+        "outfit": [
+          "head8268",
+          "l1_022_mf_pants__suit_belt",
+          "s1_010_mf_shoe__elegant",
+          "s1_010_mf_shoe__elegant_socks",
+          "t0_000_mf_base__tag8082",
+          "t1_014_mf_tshirt__plain"
+        ],
+        "body_family": "mf"
+      },
+      "bartender": {
+        "head": [
+          "LightBlocking3231",
+          "face_rig",
+          "h0_020_mf_c__middle",
+          "he_020_mf_c__middle",
+          "heb_020_mf_c__middle",
+          "ht_020_mf_c__middle",
+          "jaw",
+          "man_face_base_animations"
+        ],
+        "hair": [
+          "hb_020_mf_c__middle5606"
+        ],
+        "outfit": [
+          "l0_000_mf_base__full6751",
+          "l1_016_mf_pants__jeans",
+          "s1_010_mf_shoe__elegant",
+          "s1_010_mf_shoe__elegant_socks",
+          "t0_000_mf_base__full_nofeet1872",
+          "t1_033_mf_shirt__inside",
+          "t2_037_mf_jacket__suit_closed",
+          "tattoo_mf__hand_r_015859"
+        ],
+        "body_family": "mf"
+      },
+      "casual": {
+        "head": [
+          "LightBlocking3231",
+          "face_rig",
+          "h0_000_mf_c__basehead",
+          "he_000_mf_c__basehead",
+          "heb_000_mf_c_basehead",
+          "ht_000_mf_c__basehead",
+          "hx_000_mf_c_basehead_makeup_freckles_01",
+          "hx_000_mf_c_basehead_pimples_01",
+          "jaw",
+          "man_face_base_animations"
+        ],
+        "hair": [],
+        "outfit": [
+          "i1_032_mf_wrist__redneck",
+          "i1_033_mf_neck__necklace",
+          "i1_051_mf_ring__signet",
+          "l1_003_mf_pants__redneck",
+          "s1_002_mf_shoe__redneck",
+          "t0_000_mf_redneck__full",
+          "t1_014_mf_tshirt__redneck",
+          "t2_021_mf_vest__redneck"
+        ],
+        "body_family": "mf"
+      },
+      "head_h0_001_mf_b__dex": {
+        "head": [
+          "LightBlocking3231",
+          "chip",
+          "eyes",
+          "face_rig",
+          "head",
+          "heb_001_mf_b__dex",
+          "jaw",
+          "man_face_base_animations",
+          "teeth"
+        ],
+        "hair": [
+          "beard"
+        ],
+        "outfit": [
+          "earrings",
+          "head8268",
+          "i1_032_mf_wrist__redneck",
+          "i1_033_mf_neck__necklace",
+          "i1_051_mf_ring__signet",
+          "l1_003_mf_pants__redneck",
+          "s1_002_mf_shoe__redneck",
+          "t0_000_mf_redneck__full",
+          "t1_014_mf_tshirt__redneck",
+          "t2_021_mf_vest__redneck"
+        ],
+        "body_family": "mf"
+      }
+    },
+    "bodies": {
+      "mf": "quests/templates/characters/components/bodies/npc-mf.components.json"
+    }
+  }
+}
