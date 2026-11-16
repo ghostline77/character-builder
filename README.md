@@ -5,14 +5,11 @@ and define NPC weapon loadouts in a local browser editor.
 
 ## Start the editor
 
-Use a Rust toolchain, the sibling native crates declared in
-[Cargo.toml](Cargo.toml), and a published Items catalogue. Install the shared
-JavaScript workspace dependencies from the parent `ghostline77` directory with
-`npm ci` before building a fresh checkout. Run these commands from this repository:
+Install Rust 1.92+, Node.js 20+ and GitHub access to the Ghostline dependencies. Run from this repository.
 
 ```powershell
 cargo build --release --locked
-./target/release/ghostline-character-builder.exe serve --catalogue ../items/dist/catalogue
+./target/release/ghostline-character-builder.exe serve --catalogue path/to/items-catalogue
 ```
 
 Open <http://127.0.0.1:8787/>. Browsing and project editing work without the game.

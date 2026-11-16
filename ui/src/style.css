@@ -1,100 +1,28 @@
-@layer theme, base, app-layout, components, utilities;
-@import "../style.css" layer(app-layout);
-@import "@ghostline/ui-core/styles.css";
-@import "@ghostline/ui-core/controller.css";
-.gl-root {
-  --ink: var(--color-accent-ink);
-  height: 100dvh;
-  min-height: 0;
-}
-.gl-root > header {
-  flex-shrink: 0;
-}
-.gl-root > main {
-  flex: 1;
-  min-height: 0;
-  height: auto;
-}
-.camera .gl-input {
-  padding: 0;
-  width: 85px;
-  accent-color: var(--color-accent);
-}
-.gl-app-shell > main {
-  grid-template-columns: 325px minmax(0, 1fr) 280px;
-}
-.gl-app-shell .cards {
-  grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
-  gap: 12px;
-}
-.gl-app-shell .variant-label select {
-  font-size: 11px;
-  padding: 6px 4px;
-}
-.gl-app-shell .card img {
-  height: 150px;
-}
-.gl-app-shell .camera {
-  flex-wrap: wrap;
-  gap: 8px;
-}
-.gl-app-shell .library,
-.gl-app-shell .inspector {
-  padding: 20px;
-}
-@media (max-width: 1100px) {
-  .gl-app-shell {
-    height: auto;
+@import "@ghostline/ui-core/tailwind.css";
+@source "./**/*.{ts,tsx}";
+
+@layer base {
+  html,
+  body,
+  #root {
+    height: 100%;
+    margin: 0;
   }
-  .gl-app-shell > main {
-    grid-template-columns: 240px minmax(0, 1fr);
-    height: auto;
+  body {
+    background: var(--color-background);
   }
-  .gl-app-shell .stage {
-    min-height: 620px;
+  button,
+  input,
+  textarea,
+  select {
+    font: inherit;
   }
-  .gl-app-shell .library {
-    max-height: 760px;
+  summary {
+    cursor: pointer;
   }
-  .gl-app-shell .inspector {
-    grid-column: 1/-1;
-    overflow: visible;
-    border-left: 0;
-    border-top: 1px solid var(--color-line);
-  }
-}
-@media (max-width: 700px) {
-  .gl-app-shell > main {
-    display: flex;
-    flex-direction: column;
-  }
-  .gl-app-shell .stage {
-    order: -1;
-    min-height: 480px;
-    height: 65dvh;
-    flex: none;
-  }
-  .gl-app-shell .library {
-    max-height: 680px;
-    border-right: 0;
-    border-top: 1px solid var(--color-line);
-  }
-  .gl-app-shell .cards {
-    grid-template-columns: repeat(auto-fill, minmax(135px, 1fr));
-  }
-  .gl-app-shell .card img {
-    height: 160px;
-  }
-  .gl-app-shell .stage-bottom {
-    padding: 16px;
-  }
-  .gl-app-shell .camera {
-    padding: 12px;
-  }
-  .gl-app-shell .inspector {
-    padding: 20px 16px;
-  }
-  .gl-app-shell .empty {
-    padding: 20px;
+  textarea:focus-visible,
+  svg [tabindex]:focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 3px;
   }
 }

@@ -8,10 +8,10 @@ description = "Standalone Cyberpunk 2077 character authoring"
 [dependencies]
 anyhow = "1"
 axum = "0.8"
-clap = { version = "4", features = ["derive"] }
-ghostline-red = { path = "../ghostline-red" }
-ghostline-renderer = { path = "../renderer" }
-ghostline-refitter = { path = "../refitter" }
+clap = { version = "4", features = ["derive", "env"] }
+ghostline-red = { git = "https://github.com/ghostline77/ghostline-red" }
+ghostline-renderer = { git = "https://github.com/ghostline77/renderer" }
+ghostline-refitter = { git = "https://github.com/ghostline77/refitter" }
 glam = "0.30"
 image = { version = "0.25", default-features = false, features = ["png", "jpeg"] }
 pollster = "0.4"

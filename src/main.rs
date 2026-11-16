@@ -37,7 +37,7 @@ enum Command {
         overlay: Vec<PathBuf>,
         #[arg(long)]
         fit: bool,
-        #[arg(long, default_value = "../items/dist/catalogue")]
+        #[arg(long, env = "GHOSTLINE_ITEMS_CATALOGUE", default_value = "catalogue")]
         catalogue: PathBuf,
         #[arg(long)]
         game: PathBuf,
@@ -53,7 +53,7 @@ enum Command {
     /// Render native body clips on an authored character without garment refitting.
     RenderAnimations {
         project: PathBuf,
-        #[arg(long, default_value = "../items/dist/catalogue")]
+        #[arg(long, env = "GHOSTLINE_ITEMS_CATALOGUE", default_value = "catalogue")]
         catalogue: PathBuf,
         #[arg(long)]
         game: PathBuf,
@@ -66,7 +66,7 @@ enum Command {
     },
     /// Check independent catalogue garments across body rigs and skeletal poses.
     ReviewFits {
-        #[arg(long, default_value = "../items/dist/catalogue")]
+        #[arg(long, env = "GHOSTLINE_ITEMS_CATALOGUE", default_value = "catalogue")]
         catalogue: PathBuf,
         #[arg(long)]
         game: PathBuf,
@@ -86,7 +86,7 @@ enum Command {
     },
     /// Render and export a native outfit on each NPC anatomical family.
     ReviewWardrobe {
-        #[arg(long, default_value = "../items/dist/catalogue")]
+        #[arg(long, env = "GHOSTLINE_ITEMS_CATALOGUE", default_value = "catalogue")]
         catalogue: PathBuf,
         #[arg(long)]
         game: PathBuf,
@@ -106,7 +106,7 @@ enum Command {
     },
     /// Render every body frame with baseline and alternate native heads.
     Review {
-        #[arg(long, default_value = "../items/dist/catalogue")]
+        #[arg(long, env = "GHOSTLINE_ITEMS_CATALOGUE", default_value = "catalogue")]
         catalogue: PathBuf,
         #[arg(long)]
         game: PathBuf,
@@ -119,7 +119,7 @@ enum Command {
     },
     /// Open the local character authoring application.
     Serve {
-        #[arg(long, default_value = "../items/dist/catalogue")]
+        #[arg(long, env = "GHOSTLINE_ITEMS_CATALOGUE", default_value = "catalogue")]
         catalogue: PathBuf,
         #[arg(long, default_value = "work/projects")]
         projects: PathBuf,
@@ -140,19 +140,19 @@ enum Command {
         template: String,
         #[arg(long)]
         out: PathBuf,
-        #[arg(long, default_value = "../items/dist/catalogue")]
+        #[arg(long, env = "GHOSTLINE_ITEMS_CATALOGUE", default_value = "catalogue")]
         catalogue: PathBuf,
     },
     /// Validate a saved character against the selected catalogue.
     Validate {
         project: PathBuf,
-        #[arg(long, default_value = "../items/dist/catalogue")]
+        #[arg(long, env = "GHOSTLINE_ITEMS_CATALOGUE", default_value = "catalogue")]
         catalogue: PathBuf,
     },
     /// Resolve, render or export an authored character with native libraries.
     Build {
         project: PathBuf,
-        #[arg(long, default_value = "../items/dist/catalogue")]
+        #[arg(long, env = "GHOSTLINE_ITEMS_CATALOGUE", default_value = "catalogue")]
         catalogue: PathBuf,
         #[arg(long)]
         game: PathBuf,
