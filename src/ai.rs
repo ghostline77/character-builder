@@ -14,13 +14,9 @@ use std::{
 
 pub fn catalogue() -> Result<&'static Value> {
     static DATA: OnceLock<Result<Value, String>> = OnceLock::new();
-    DATA.get_or_init(|| {
-        let path = crate::templates::data_path("behaviour.json").map_err(|e| e.to_string())?;
-        serde_json::from_slice(&fs::read(path).map_err(|e| e.to_string())?)
-            .map_err(|e| e.to_string())
-    })
-    .as_ref()
-    .map_err(|e| anyhow::anyhow!(e.clone()))
+    DATA.get_or_init(|| crate::templates::data("behaviour.json").map_err(|e| e.to_string()))
+        .as_ref()
+        .map_err(|e| anyhow::anyhow!(e.clone()))
 }
 
 pub fn preset(id: &str) -> Result<Option<&'static Value>> {

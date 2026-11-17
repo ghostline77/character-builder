@@ -5,7 +5,7 @@ and define NPC weapon loadouts in a local browser editor.
 
 ## Start the editor
 
-Install Rust 1.92+, Node.js 20+ and GitHub access to the Ghostline dependencies. Run from this repository.
+Install Rust 1.92+, Node.js 20+ and GitHub access to the Ghostline dependencies. Run from this repository. The executable embeds its UI, native templates, frame recipes and behaviour catalogue. Supply the item catalogue separately.
 
 ```powershell
 cargo build --release --locked

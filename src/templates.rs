@@ -1,4 +1,5 @@
-use anyhow::{Result, bail};
+use anyhow::{Context, Result};
+use include_dir::{Dir, include_dir};
 use serde::Serialize;
 
 #[derive(Clone, Copy, Serialize)]
@@ -97,29 +98,23 @@ pub fn get(id: &str) -> Result<Template> {
 
 pub fn shell(template: Template, kind: &str) -> Result<serde_json::Value> {
     let file = format!("{}.{}-shell.json", template.root, kind);
-    let path = data_path(&format!("templates/{file}"))?;
-    if !path.is_file() {
-        bail!("bundled character template is missing: {}", path.display());
-    }
-    Ok(serde_json::from_slice(&std::fs::read(path)?)?)
+    data(&format!("templates/{file}"))
 }
 
-pub fn data_path(relative: &str) -> Result<std::path::PathBuf> {
-    let bundled = std::env::current_exe()?
+pub fn data(relative: &str) -> Result<serde_json::Value> {
+    static DATA: Dir<'static> = include_dir!("$CARGO_MANIFEST_DIR/data");
+    let override_path = std::env::current_exe()?
         .parent()
-        .ok_or_else(|| anyhow::anyhow!("executable has no parent directory"))?
+        .context("executable has no parent directory")?
         .join("data")
         .join(relative);
-    if bundled.is_file() {
-        return Ok(bundled);
+    if override_path.is_file() {
+        return Ok(serde_json::from_slice(&std::fs::read(override_path)?)?);
     }
-    let development = std::path::Path::new(env!("CARGO_MANIFEST_DIR"))
-        .join("data")
-        .join(relative);
-    if development.is_file() {
-        return Ok(development);
-    }
-    bail!("bundled character data missing: {}", bundled.display())
+    let file = DATA
+        .get_file(relative)
+        .with_context(|| format!("bundled character data missing: {relative}"))?;
+    Ok(serde_json::from_slice(file.contents())?)
 }
 
 #[cfg(test)]

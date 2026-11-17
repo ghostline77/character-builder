@@ -3,9 +3,7 @@ use crate::{project::Project, templates::Template};
 use anyhow::{Context, Result, ensure};
 use serde_json::Value;
 fn data(file: &str) -> Result<Value> {
-    Ok(serde_json::from_slice(&std::fs::read(
-        crate::templates::data_path(&format!("frames/{file}"))?,
-    )?)?)
+    crate::templates::data(&format!("frames/{file}"))
 }
 pub fn default_head(frame: &str) -> &'static str {
     match frame {
